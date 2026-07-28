@@ -96,13 +96,9 @@ thresholds are editable under `figure_2` in `config/analysis.yml`. The defaults
 that reproduce the final plotting notebook are:
 
 - intra-layer significance: `p < 0.01`;
-- inter-layer significance used to build the notebook link tables: `p < 0.05`;
 - inter-layer minimum `|rho|`: `0.30` in 2020 and `0.45` in 2024;
 - within-candidate minimum `|rho|`: `0.50` in 2020 and `0.70` in 2024;
 - within-public minimum `|rho|`: `0.10` in 2020 and `0.40` in 2024.
-
-To enforce the stricter manuscript wording for inter-layer links, change
-`figure_2.inter_alpha` from `0.05` to `0.01`.
 
 ### Figure 1
 
@@ -127,8 +123,7 @@ likes-per-post signal for each topic. The candidate layers are the centered seve
 daily number of speech paragraphs per topic. Correlations are Spearman
 correlations.
 
-Figure 2 reproduces the final two-dimensional multilayer layout used in
-`07_speeches_bis.ipynb`: three elliptical topic rings on perspective planes,
+Figure 2 reproduces the final two-dimensional multilayer layout: three elliptical topic rings on perspective planes,
 black within-layer links, and purple directed links between the same topic in
 adjacent layers. Inter-layer links retain the maximum absolute correlation over
 non-zero lags within ±14 days only when the selected lag is significant. The
@@ -225,8 +220,7 @@ state-weighted stance bias, and the minimal public schemas.
 
 ### Correlation audit files
 
-Figure 2 writes the complete matrices used by the original
-`export_three_layer_correlations` workflow to `results/figure_2/data/`: intra-layer
+Figure 2 writes the complete matrices to `results/figure_2/data/`: intra-layer
 rho/p matrices and inter-layer rho, p, lag, sample-size, selection-source, and
 all-pair link tables. The matching-topic link files are the filtered inputs used
 for the plotted arrows.
@@ -244,8 +238,6 @@ results/figure_3/figure_3_heatmap_2024.{pdf,png,svg}
 results/figure_3/figure_3_subnetwork_2024.{pdf,png,svg}
 ```
 
-The heatmap follows the pseudo-triangular layout of
-`plot_three_layer_block_heatmap_from_export`: diagonal intra-layer blocks and
-only the two candidate–public blocks below the diagonal. The subnetwork follows
-`plot_three_subnet_topic_network_matplotlib`, including four nodes per layer,
+The heatmap follows the pseudo-triangular layout: diagonal intra-layer blocks and
+only the two candidate–public blocks below the diagonal. The subnetwork includes four nodes per layer,
 stance-bias colors, topic-volume sizes, and lag-directed inter-layer arrows.
