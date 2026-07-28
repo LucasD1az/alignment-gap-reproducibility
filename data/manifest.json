@@ -1,0 +1,240 @@
+{
+  "posts_and_labels": [
+    {
+      "year": 2016,
+      "posts_path": "data\\posts\\posts_2016.csv.gz",
+      "labels_path": "data\\labels\\labels_2016.jsonl.gz",
+      "n_posts": 837651,
+      "n_pages": 51091,
+      "n_posts_with_page_mapping": 781129,
+      "n_raw_pages_matched": 46170,
+      "n_topic_labels": 354901,
+      "n_stance_labels": 322249,
+      "n_candidate_stance_labels": 0
+    },
+    {
+      "year": 2020,
+      "posts_path": "data\\posts\\posts_2020.csv.gz",
+      "labels_path": "data\\labels\\labels_2020.jsonl.gz",
+      "n_posts": 827898,
+      "n_pages": 54247,
+      "n_posts_with_page_mapping": 772098,
+      "n_raw_pages_matched": 48457,
+      "n_topic_labels": 473436,
+      "n_stance_labels": 410811,
+      "n_candidate_stance_labels": 746030
+    },
+    {
+      "year": 2024,
+      "posts_path": "data\\posts\\posts_2024.csv.gz",
+      "labels_path": "data\\labels\\labels_2024.jsonl.gz",
+      "n_posts": 880006,
+      "n_pages": 63448,
+      "n_posts_with_page_mapping": 788990,
+      "n_raw_pages_matched": 49729,
+      "n_topic_labels": 440997,
+      "n_stance_labels": 356494,
+      "n_candidate_stance_labels": 807803
+    }
+  ],
+  "speeches": [
+    {
+      "year": 2020,
+      "candidate": "Joe Biden",
+      "path": "data\\speeches\\speeches_joe_biden_2020.csv.gz",
+      "n_speeches": 64,
+      "n_paragraphs": 3046
+    },
+    {
+      "year": 2020,
+      "candidate": "Donald Trump",
+      "path": "data\\speeches\\speeches_donald_trump_2020.csv.gz",
+      "n_speeches": 410,
+      "n_paragraphs": 28229
+    },
+    {
+      "year": 2024,
+      "candidate": "Kamala Harris",
+      "path": "data\\speeches\\speeches_kamala_harris_2024.csv.gz",
+      "n_speeches": 272,
+      "n_paragraphs": 8736
+    },
+    {
+      "year": 2024,
+      "candidate": "Donald Trump",
+      "path": "data\\speeches\\speeches_donald_trump_2024.csv.gz",
+      "n_speeches": 524,
+      "n_paragraphs": 49051
+    }
+  ],
+  "speech_stance": [
+    {
+      "year": 2020,
+      "candidate": "Joe Biden",
+      "path": "data\\speeches\\stance_counts_joe_biden_2020.csv.gz",
+      "source_kind": "separate_speech_stance_input",
+      "n_stance_rows": 393,
+      "n_stance_paragraphs": 1678.0
+    },
+    {
+      "year": 2020,
+      "candidate": "Donald Trump",
+      "path": "data\\speeches\\stance_counts_donald_trump_2020.csv.gz",
+      "source_kind": "separate_speech_stance_input",
+      "n_stance_rows": 2018,
+      "n_stance_paragraphs": 15873.0
+    },
+    {
+      "year": 2024,
+      "candidate": "Kamala Harris",
+      "path": "data\\speeches\\stance_counts_kamala_harris_2024.csv.gz",
+      "source_kind": "separate_speech_stance_input",
+      "n_stance_rows": 887,
+      "n_stance_paragraphs": 3818.0
+    },
+    {
+      "year": 2024,
+      "candidate": "Donald Trump",
+      "path": "data\\speeches\\stance_counts_donald_trump_2024.csv.gz",
+      "source_kind": "separate_speech_stance_input",
+      "n_stance_rows": 3123,
+      "n_stance_paragraphs": 26369.0
+    }
+  ],
+  "geography": [
+    {
+      "year": 2020,
+      "path": "data\\geography\\page_state_exposure_2020.csv.gz",
+      "n_pages": 1308,
+      "n_states": 51
+    },
+    {
+      "year": 2020,
+      "path": "data\\geography\\election_results_2020.csv",
+      "n_states": 51
+    },
+    {
+      "year": 2024,
+      "path": "data\\geography\\page_state_exposure_2024.csv.gz",
+      "n_pages": 1683,
+      "n_states": 51
+    },
+    {
+      "year": 2024,
+      "path": "data\\geography\\election_results_2024.csv",
+      "n_states": 51
+    }
+  ],
+  "files": [
+    {
+      "path": "data\\geography\\.gitkeep",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "data\\geography\\election_results_2020.csv",
+      "bytes": 2097,
+      "sha256": "73cd89854f89700b9104290b5d515e81f564fa17c8d0961bf70c680ca24699cc"
+    },
+    {
+      "path": "data\\geography\\election_results_2024.csv",
+      "bytes": 2138,
+      "sha256": "203fe1bae8832ba01495a45c42b6f5b7cbe1c712e5e79eed52b886dc11cdfb37"
+    },
+    {
+      "path": "data\\geography\\page_state_exposure_2020.csv.gz",
+      "bytes": 873175,
+      "sha256": "401079bcdf36bb24645ee94205ae37509b04d597956f712a418ed4e140a3a602"
+    },
+    {
+      "path": "data\\geography\\page_state_exposure_2024.csv.gz",
+      "bytes": 1249174,
+      "sha256": "329efb01ab75a153c17d449a131bc9948ce8da8bc261fb5b01ee007949f3d76e"
+    },
+    {
+      "path": "data\\labels\\.gitkeep",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "data\\labels\\labels_2016.jsonl.gz",
+      "bytes": 8708205,
+      "sha256": "fd603c5954708a6ef8c40dc7400c7ce0b4674e407003a3f3d095d8be951f308f"
+    },
+    {
+      "path": "data\\labels\\labels_2020.jsonl.gz",
+      "bytes": 9224965,
+      "sha256": "5998e20846355c7ce6ed69ed296cd46304048d4927bbaea5dfa901784ec208e0"
+    },
+    {
+      "path": "data\\labels\\labels_2024.jsonl.gz",
+      "bytes": 9680080,
+      "sha256": "2f9cd3390d59979e363c36f1a1df920c230e6368b1c9fdd2f07c08ae26de5e28"
+    },
+    {
+      "path": "data\\posts\\.gitkeep",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "data\\posts\\posts_2016.csv.gz",
+      "bytes": 24006426,
+      "sha256": "f94d2aa79cc4624710d6ac7f2e81bf41ebb636fcbf2fa789eac62c4a5e55e308"
+    },
+    {
+      "path": "data\\posts\\posts_2020.csv.gz",
+      "bytes": 24301482,
+      "sha256": "c01f45061cefdcb73d89bff0809b1dbcfb15b175dee1cd8c2a20317c4a3cd280"
+    },
+    {
+      "path": "data\\posts\\posts_2024.csv.gz",
+      "bytes": 25082284,
+      "sha256": "de38087ddbf844db09b96c7d4d1829731f3f514a951657c3cd1b3ea35b80308b"
+    },
+    {
+      "path": "data\\speeches\\.gitkeep",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "data\\speeches\\speeches_donald_trump_2020.csv.gz",
+      "bytes": 356194,
+      "sha256": "55ebd1122757bc4c9dd05cf9a4e68d4c51722bf215962a51758fcdfb04b96203"
+    },
+    {
+      "path": "data\\speeches\\speeches_donald_trump_2024.csv.gz",
+      "bytes": 604379,
+      "sha256": "fd7fb8aa3c8b6d60d7136f95ae6fa136ea969db9c09c38a53947f223ef8efdaa"
+    },
+    {
+      "path": "data\\speeches\\speeches_joe_biden_2020.csv.gz",
+      "bytes": 39930,
+      "sha256": "f666574601cc1b902a2c552bed3ae5eb60a0c44ab2a4054e6197b09d2676c9a3"
+    },
+    {
+      "path": "data\\speeches\\speeches_kamala_harris_2024.csv.gz",
+      "bytes": 112104,
+      "sha256": "836b3b61863f616dae05e719654ee9112813315fe897140649dddb5116711706"
+    },
+    {
+      "path": "data\\speeches\\stance_counts_donald_trump_2020.csv.gz",
+      "bytes": 8929,
+      "sha256": "692600c11aba1ee28b30d96ad8522b37553134adbef83a2b313dbb223ca95773"
+    },
+    {
+      "path": "data\\speeches\\stance_counts_donald_trump_2024.csv.gz",
+      "bytes": 13573,
+      "sha256": "8b76d70c86565839839302aeb598d84ad39d4184db195f325e2313ce7f6a80f0"
+    },
+    {
+      "path": "data\\speeches\\stance_counts_joe_biden_2020.csv.gz",
+      "bytes": 2159,
+      "sha256": "ce8f1ac392763a7a45b6fe0e41b5884f051b6a33170a1039c275abdc77701207"
+    },
+    {
+      "path": "data\\speeches\\stance_counts_kamala_harris_2024.csv.gz",
+      "bytes": 4192,
+      "sha256": "2389ce19a2ac077b972b081773056746c8a48f3ca71a21374c439bd3b6fb2d32"
+    }
+  ]
+}

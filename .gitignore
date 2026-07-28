@@ -1,0 +1,26 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.ruff_cache/
+.venv/
+venv/
+
+# Private and generated data
+data/temp/*
+!data/temp/README.md
+data/temp/.anonymization_salt
+data/temp/private_maps/
+scripts/check_temp_inputs.py
+scripts/prepare_public_data.py
+
+# Generated outputs
+results/*
+!results/README.md
+data/derived/*
+!data/derived/README.md
+
+# Local files
+.DS_Store
+*.log

@@ -1,0 +1,308 @@
+project:
+  title: "The Alignment Gap: How Public Resonance Shaped Three U.S. Presidential Elections (2016–2024)"
+  timezone: UTC
+
+paths:
+  temp: data/temp
+  posts: data/posts
+  labels: data/labels
+  speeches: data/speeches
+  geography: data/geography
+  derived: data/derived
+  results: results
+
+privacy:
+  id_digest_chars: 16
+  save_private_id_maps: true
+
+input_patterns:
+  raw_posts:
+    - "{year}USElections.csv"
+    - "posts/{year}USElections.csv"
+  first_pass:
+    - "first_pass/Topic_labels_ollama_{year}.jsonl"
+    - "Topic_labels_ollama_{year}.jsonl"
+  stance:
+    - "stance/stance_labels_{year}.jsonl"
+    - "stance_labels_{year}.jsonl"
+  democracy_subtopics:
+    - "second_pass/Subtopic_democracy_labels_ollama_{year}.jsonl"
+    - "second_pass/Subtopics_democracy_labels_ollama_{year}.jsonl"
+    - "Subtopic_democracy_labels_ollama_{year}.jsonl"
+  democratic_concerns_stance:
+    - "stance/parties/{year}_Topic_labels.jsonl"
+    - "stance/parties/stance_labels_{year}.jsonl"
+    - "parties/{year}_Topic_labels.jsonl"
+  candidate_stance:
+    - "sentiment/output_to_email_{year}.csv"
+    - "output_to_email_{year}.csv"
+  page_mapping:
+    - "geography/page_id_mapping_{year}.csv"
+    - "page_id_mapping_{year}.csv"
+    - "geography/{year}_ids.csv"
+    - "{year}_ids.csv"
+  region_exposure:
+    - "geography/region_impressions_distribution_{year}.csv"
+    - "geography/ads_regions_{year}/region_impressions_distribution.csv"
+    - "ads_regions_{year}/region_impressions_distribution.csv"
+  election_results:
+    - "geography/{year}_Results.csv"
+    - "{year}_Results.csv"
+  speeches:
+    biden_2020:
+      - "speeches/biden_paragraphs_2020_classified.pkl"
+      - "biden_paragraphs_2020_classified.pkl"
+    trump_2020:
+      - "speeches/trump_paragraphs_2020_classified.pkl"
+      - "trump_paragraphs_2020_classified.pkl"
+    harris_2024:
+      - "speeches/harris_paragraphs_2024_classified.pkl"
+      - "harris_paragraphs_2024_classified.pkl"
+    trump_2024:
+      - "speeches/trump_paragraphs_2024_classified.pkl"
+      - "trump_paragraphs_2024_classified.pkl"
+  # Candidate stance was computed in 07_correlations.ipynb from separate
+  # speech-stance time-series files. Long paragraph-level CSVs are also accepted.
+  speech_stance:
+    biden_2020:
+      - "speeches/2020_speech_stance_biden_time_series.pkl"
+      - "2020_speech_stance_biden_time_series.pkl"
+      - "speeches/biden_paragraphs_2020_with_stance.csv"
+      - "biden_paragraphs_2020_with_stance.csv"
+    trump_2020:
+      - "speeches/2020_speech_stance_trump_time_series.pkl"
+      - "2020_speech_stance_trump_time_series.pkl"
+      - "speeches/trump_paragraphs_2020_with_stance.csv"
+      - "trump_paragraphs_2020_with_stance.csv"
+    harris_2024:
+      - "speeches/2024_speech_stance_harris_time_series.pkl"
+      - "speeches/2024_speech_stance_kamala_time_series.pkl"
+      - "2024_speech_stance_harris_time_series.pkl"
+      - "2024_speech_stance_kamala_time_series.pkl"
+      - "speeches/harris_paragraphs_2024_with_stance.csv"
+      - "harris_paragraphs_2024_with_stance.csv"
+    trump_2024:
+      - "speeches/2024_speech_stance_trump_time_series.pkl"
+      - "2024_speech_stance_trump_time_series.pkl"
+      - "speeches/trump_paragraphs_2024_with_stance.csv"
+      - "trump_paragraphs_2024_with_stance.csv"
+
+preparation:
+  candidate_stance_confidence_threshold: 0.90
+  strict_candidate_confidence: false
+  neutral_label: Neutral
+
+periods:
+  2016:
+    election_date: "2016-11-08"
+    campaign_start: "2016-06-01"
+    campaign_end: "2016-11-08"
+    figure_1_end: "2016-11-05"
+  2020:
+    election_date: "2020-11-03"
+    campaign_start: "2020-06-01"
+    campaign_end: "2020-11-03"
+    figure_1_end: "2020-10-31"
+  2024:
+    election_date: "2024-11-05"
+    campaign_start: "2024-06-01"
+    campaign_end: "2024-11-05"
+    figure_1_end: "2024-11-02"
+
+figure_1:
+  minor_topic_threshold_pct: 3.0
+  split_topics:
+    - Democratic concerns
+    - Wokeness
+    - Economy
+    - Immigration
+
+figure_2:
+  years: [2020, 2024]
+  centered_window_days: 7
+  minimum_layer_share: 0.02
+  intra_alpha: 0.01
+  # The link tables used by 07_speeches_bis.ipynb were generated with p < 0.05.
+  # Keep this separate from the stricter p < 0.01 intra-layer threshold.
+  inter_alpha: 0.05
+  lag_min_days: 1
+  lag_max_days: 14
+  # Exact lag slicing/index-alignment behavior of export_three_layer_correlations.
+  lag_alignment: legacy_index
+  # The notebook selected the strongest significant lag and otherwise fell back
+  # to the strongest lag overall.
+  fallback_to_all_lags: true
+  # Date windows passed in the final 07_correlations.ipynb export calls.
+  correlation_periods:
+    2020:
+      start: "2020-06-01"
+      end: "2020-11-07"
+    2024:
+      start: "2024-06-01"
+      end: "2024-11-10"
+  topics:
+    2020:
+      - National security and foreign policy
+      - Wokeness
+      - Democratic concerns
+      - Economy
+      - Guns control
+      - Abortion
+      - Immigration
+      - Healthcare
+    2024:
+      - Immigration
+      - Wokeness
+      - Democratic concerns
+      - Economy
+      - Abortion
+      - National security and foreign policy
+      - Healthcare
+      - Guns control
+  inter_min_abs_correlation:
+    2020: 0.30
+    2024: 0.45
+  intra_min_abs_correlation:
+    2020:
+      candidate: 0.50
+      public: 0.10
+    2024:
+      candidate: 0.70
+      public: 0.40
+  style:
+    ellipse_rx: 0.8
+    ellipse_ry: 2.5
+    rotation_deg: 9
+    curve_strength: 0.45
+    arrow_end_pad: 0.30
+    inter_width_min: 2.5
+    inter_width_max: 4.2
+    intra_width: 1.4
+    intra_alpha: 0.55
+    plane_pad_x: 0.5
+    plane_pad_y: 0.1
+    plane_perspective: 1.3
+    plane_y_shear: 0.10
+    layer_title_fontsize: 24
+    node_size_candidate_min: 10
+    node_size_candidate_max: 24
+    node_size_reaction_min: 10
+    node_size_reaction_max: 24
+    node_edge_width: 0.9
+    show_topic_labels: true
+    topic_label_layer: public
+    topic_label_fontsize: 9
+    topic_label_offset_x: 5
+    topic_label_offset_y: 5
+
+figure_3:
+  years: [2020, 2024]
+  alpha: 0.01
+  topics:
+    - Immigration
+    - Economy
+    - Abortion
+    - Wokeness
+    - Healthcare
+    - Democratic concerns
+    - National security and foreign policy
+    - Guns control
+  thresholds:
+    2020:
+      candidate_public: 0.55
+      within_candidate: 0.50
+      within_public: 0.40
+    2024:
+      candidate_public: 0.53
+      within_candidate: 0.70
+      within_public: 0.40
+  subnet_topics:
+    2020:
+      - Wokeness
+      - Democratic concerns
+      - Economy
+      - Healthcare
+    2024:
+      - Wokeness
+      - Democratic concerns
+      - Economy
+      - Immigration
+  heatmap:
+    gap: 2
+    show_values: true
+    value_fontsize: 7
+    value_text_threshold_abs: 0.70
+    initials_fontsize: 13
+    layer_label_fontsize: 15
+    figsize: [12, 12]
+  subnet:
+    figsize: [10, 8]
+    left_center: [-3.8, -1.0]
+    public_center: [0.0, 1.7]
+    right_center: [3.8, -1.0]
+    ring_radius: 1.15
+    node_radius_min: 0.22
+    node_radius_max: 0.40
+    node_text_fontsize: 12
+    layer_title_fontsize: 15
+
+figure_4:
+  years: [2020, 2024]
+  centered_window_days: 7
+  # 06_time_series.ipynb explicitly treated "Democrats threaten democracy"
+  # as the positive pole for this figure, reversing the manuscript-wide
+  # convention used by Figures 2, 3, and 5. Keep this local to Figure 4.
+  democratic_concerns_notebook_orientation: true
+  topics:
+    - Democratic concerns
+    - Wokeness
+    - Economy
+    - Immigration
+    - Abortion
+  radar_windows:
+    2020:
+      - ["2020-06-14", "2020-06-24", "a"]
+      - ["2020-08-13", "2020-08-23", "b"]
+      - ["2020-09-24", "2020-10-04", "c"]
+      - ["2020-10-19", "2020-10-29", "d"]
+    2024:
+      - ["2024-08-15", "2024-08-25", "a"]
+      - ["2024-09-06", "2024-09-16", "b"]
+      - ["2024-09-17", "2024-09-27", "c"]
+      - ["2024-10-09", "2024-10-19", "d"]
+
+figure_5:
+  years: [2020, 2024]
+  map_topic: Immigration
+  scatter_topics:
+    - Democratic concerns
+    - Wokeness
+    - Economy
+    - Immigration
+  # geography_v3.ipynb zeroed page-state shares below this threshold
+  # without renormalizing the remaining entries.
+  min_state_weight: 0.001
+  map:
+    election_range: [-75, 75]
+    immigration_z_range: [-2, 2]
+    show_state_labels: true
+  scatter:
+    point_size: 85
+    cmap: RdBu
+    show_fit_line: true
+    show_pearson: true
+    swing_states:
+      - Pennsylvania
+      - Michigan
+      - Wisconsin
+      - Arizona
+      - Georgia
+      - Nevada
+      - North Carolina
+    xlim:
+      2020: [-64, 42]
+      2024: [-50, 45]
+    ylim:
+      2020: [-0.87, 0.35]
+      2024: [-0.92, 0.30]
+  static_formats: [png, pdf, svg]

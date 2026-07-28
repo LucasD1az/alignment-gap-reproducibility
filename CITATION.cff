@@ -1,0 +1,19 @@
+cff-version: 1.2.0
+message: "If you use this repository, please cite the associated paper."
+title: "The Alignment Gap: How Public Resonance Shaped Three U.S. Presidential Elections (2016–2024)"
+type: software
+authors:
+  - family-names: "Díaz Celauro"
+    given-names: "Lucas"
+  - family-names: "Pinto"
+    given-names: "Sebastián"
+  - family-names: "del Pozo"
+    given-names: "Sofia"
+  - family-names: "Serafino"
+    given-names: "Matteo"
+  - family-names: "Balenzuela"
+    given-names: "Pablo"
+  - family-names: "Makse"
+    given-names: "Hernán A."
+version: 0.1.7
+date-released: 2026-07-27
