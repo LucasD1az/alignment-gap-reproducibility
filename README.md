@@ -1,4 +1,8 @@
-# The Alignment Gap — reproducibility repository
+# The Alignment Gap: How Public Resonance Shaped Three U.S. Presidential Elections (2016-2024)
+
+Lucas Díaz Celauro, Sebastián Pinto, Sofia del Pozo, Alireza Hashemi, Matteo Serafino, Pablo Balenzuela, Hernán A. Makse
+
+---
 
 Clean public pipeline for reproducing the five main figures of:
 
