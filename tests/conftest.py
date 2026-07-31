@@ -71,10 +71,29 @@ def prepared_config(tmp_path: Path) -> dict:
     config["privacy"]["id_digest_chars"] = 12
     config["figure_2"]["minimum_layer_share"] = 0.0
     config["figure_5"]["static_formats"] = []
+    config["figure_4"]["static_formats"] = ["pdf"]
     for year in (2016, 2020, 2024):
         config["periods"][year]["campaign_start"] = f"{year}-06-01"
         config["periods"][year]["campaign_end"] = f"{year}-06-24"
         config["periods"][year]["figure_1_end"] = f"{year}-06-24"
+        if year in (2020, 2024):
+            config["figure_4"]["support_periods"][year] = {
+                "start": f"{year}-06-01",
+                "end": f"{year}-06-24",
+            }
+            config["figure_4"]["support_ylim"][year] = None
+            config["figure_4"]["vline_dates"][year] = [
+                f"{year}-06-05",
+                f"{year}-06-10",
+                f"{year}-06-15",
+                f"{year}-06-20",
+            ]
+            config["figure_4"]["radar_windows"][year] = [
+                [f"{year}-06-01", f"{year}-06-06", "a"],
+                [f"{year}-06-07", f"{year}-06-12", "b"],
+                [f"{year}-06-13", f"{year}-06-18", "c"],
+                [f"{year}-06-19", f"{year}-06-24", "d"],
+            ]
 
     temp = tmp_path / "data" / "temp"
     (temp / "first_pass").mkdir(parents=True)

@@ -353,39 +353,41 @@ def test_figure_3_writes_heatmap_and_subnetwork_separately(prepared_config: dict
     assert "figure_3.pdf" not in names
 
 
-def test_figure_4_uses_notebook_democratic_concerns_orientation(prepared_config: dict) -> None:
-    from alignment_gap.figure4 import _figure_4_stance_bias
+def test_figure_4_uses_manuscript_democratic_concerns_orientation(prepared_config: dict) -> None:
+    from alignment_gap.constants import STANCE_PRO_ANTI
     from alignment_gap.series import daily_stance_bias_posts
 
-    start = "2024-06-01"
-    end = "2024-06-24"
-    canonical = daily_stance_bias_posts(
-        prepared_config,
-        2024,
-        start=start,
-        end=end,
-        rolling_days=1,
-    )
-    figure_four = _figure_4_stance_bias(
-        prepared_config,
-        2024,
-        start=start,
-        end=end,
-        rolling_days=1,
-    )
+    assert "democratic_concerns_notebook_orientation" not in prepared_config["figure_4"]
+    assert STANCE_PRO_ANTI["Democratic concerns"] == {
+        "pro": "Republicans threaten democracy",
+        "anti": "Democrats threaten democracy",
+    }
 
-    canonical_dc = canonical[canonical["topic"] == "Democratic concerns"].set_index("date")
-    figure_dc = figure_four[figure_four["topic"] == "Democratic concerns"].set_index("date")
-    common = canonical_dc.index.intersection(figure_dc.index)
-    assert len(common) > 0
-    assert np.allclose(
-        figure_dc.loc[common, "bias"].fillna(0.0),
-        -canonical_dc.loc[common, "bias"].fillna(0.0),
+    bias = daily_stance_bias_posts(
+        prepared_config,
+        2024,
+        start="2024-06-01",
+        end="2024-06-24",
+        rolling_days=1,
     )
-    assert np.allclose(
-        figure_dc.loc[common, "likes_pro"],
-        canonical_dc.loc[common, "likes_anti"],
-    )
+    dc = bias[bias["topic"] == "Democratic concerns"].copy()
+    assert not dc.empty
+    expected = (dc["likes_pro"] - dc["likes_anti"]) / dc["likes_total"].replace(0, np.nan)
+    assert np.allclose(dc["bias"].fillna(0.0), expected.fillna(0.0))
+
+
+def test_figure_4_writes_support_and_radars_separately(prepared_config: dict) -> None:
+    import matplotlib
+
+    matplotlib.use("Agg")
+    from alignment_gap.figure4 import reproduce_figure_4
+
+    outputs = [Path(path) for path in reproduce_figure_4(prepared_config)]
+    names = {path.name for path in outputs}
+    for year in (2020, 2024):
+        assert f"figure_4_support_stance_{year}.pdf" in names
+        assert f"figure_4_radars_{year}.pdf" in names
+    assert "figure_4.pdf" not in names
 
 
 def test_figure_5_writes_decomposed_components(prepared_config: dict) -> None:

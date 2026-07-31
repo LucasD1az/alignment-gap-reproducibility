@@ -20,11 +20,10 @@ Important consequences:
   `Danger to democracy` macro-topic into the final public topics;
 - `Parties, leadership and democratic responsibility` is published as
   `Democratic concerns`;
-- the Democratic-concerns stance follows the manuscript convention in
-  Figures 2, 3, and 5: `Republicans threaten democracy` is +1 and
-  `Democrats threaten democracy` is −1; Figure 4 deliberately preserves the
-  opposite polarity hard-coded in `06_time_series.ipynb`, because that is the
-  convention used to generate the published support/stance panel;
+- the Democratic-concerns stance follows the manuscript convention in every
+  figure: `Republicans threaten democracy` is +1 and `Democrats threaten
+  democracy` is −1; the opposite helper mapping left in `06_time_series.ipynb`
+  is treated as an implementation error rather than part of the final method;
 - `Healthcare/Science`, `Taxes`, and `LGBT issues` are published as
   `Healthcare`, `Economy`, and `Wokeness`, respectively;
 - correlations use centered seven-day means and Spearman correlation: daily
@@ -114,3 +113,13 @@ year, plus one four-topic scatter grid for each year. The geographic aggregation
 now also mirrors `geography_v3.ipynb` by applying the 0.001 page-state threshold
 without renormalizing the retained weights. Prepared exposure tables preserve
 both the original state value and the normalized page-state share.
+
+## v0.1.8: corrected Figure 4 orientation and separate exports
+
+Figure 4 now follows the manuscript polarity for Democratic concerns, removing
+the former `democratic_concerns_notebook_orientation` configuration switch.
+The support/stance time series and the four radar profiles are exported as
+separate files for each year, matching the workflow based on
+`plot_support_bump_stance_v2` and `plot_multiple_stance_radars` in
+`06_time_series.ipynb`. The older v0.1.6 note above documents a superseded
+intermediate reproduction decision.

@@ -249,16 +249,42 @@ figure_3:
 figure_4:
   years: [2020, 2024]
   centered_window_days: 7
-  # 06_time_series.ipynb explicitly treated "Democrats threaten democracy"
-  # as the positive pole for this figure, reversing the manuscript-wide
-  # convention used by Figures 2, 3, and 5. Keep this local to Figure 4.
-  democratic_concerns_notebook_orientation: true
-  topics:
+  support_topics:
+    - Immigration
+    - Economy
+    - Wokeness
+    - Democratic concerns
+    - Abortion
+  radar_topics:
     - Democratic concerns
     - Wokeness
     - Economy
     - Immigration
     - Abortion
+  # Time ranges used for the two-panel support/stance exports.  The 2024
+  # range reproduces the final plot_support_bump_stance_v2 call in
+  # 06_time_series.ipynb; 2020 uses the complete campaign interval.
+  support_periods:
+    2020:
+      start: "2020-06-01"
+      end: "2020-11-03"
+    2024:
+      start: "2024-08-01"
+      end: "2024-11-24"
+  support_ylim:
+    2020: null
+    2024: [-0.20, 0.10]
+  vline_dates:
+    2020:
+      - "2020-06-19"
+      - "2020-08-18"
+      - "2020-09-29"
+      - "2020-10-24"
+    2024:
+      - "2024-08-20"
+      - "2024-09-12"
+      - "2024-09-22"
+      - "2024-10-14"
   radar_windows:
     2020:
       - ["2020-06-14", "2020-06-24", "a"]
@@ -270,6 +296,27 @@ figure_4:
       - ["2024-09-06", "2024-09-16", "b"]
       - ["2024-09-17", "2024-09-27", "c"]
       - ["2024-10-09", "2024-10-19", "d"]
+  support_style:
+    figsize: [16, 9]
+    panel_title_fontsize: 28
+    axis_label_fontsize: 22
+    tick_labelsize: 20
+    date_tick_labelsize: 20
+    legend_fontsize: 14
+    vline_label_fontsize: 16
+    vline_lw: 2.5
+    date_fmt: "%m-%d"
+  radar_style:
+    figsize: [15, 5.8]
+    topic_label_fontsize: 20
+    bias_value_fontsize: 16
+    title_fontsize: 24
+    initials_legend_fontsize: 18
+    sign_legend_fontsize: 20
+    initials_legend_y: 0.08
+    sign_legend_y: 0.10
+    show_bias_value_labels: false
+  static_formats: [png, pdf, svg]
 
 figure_5:
   years: [2020, 2024]

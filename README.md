@@ -153,14 +153,26 @@ all candidate-classified likes, including Neither
 ```
 
 The candidate and topic signals are constructed from centered seven-day sums.
-The radar windows are explicit in `config/analysis.yml`.
+The radar windows and vertical reference dates are explicit in
+`config/analysis.yml`.
 
-`06_time_series.ipynb` contains one figure-specific exception: for
-`Democratic concerns`, it treats `Democrats threaten democracy` as the positive
-pole and `Republicans threaten democracy` as the negative pole. The
-reproduction keeps that inversion local to Figure 4 through
-`figure_4.democratic_concerns_notebook_orientation`; Figures 2, 3, and 5 retain
-the manuscript-wide stance convention.
+Figure 4 uses the manuscript-wide stance convention, including for
+`Democratic concerns`: `Republicans threaten democracy` is the positive pole
+and `Democrats threaten democracy` is the negative pole. The reversed helper
+mapping that remained in `06_time_series.ipynb` is intentionally not reproduced.
+
+As in the final notebook workflow, the repository exports two independently
+composable pieces for each election year rather than one assembled panel:
+
+```text
+results/figure_4/figure_4_support_stance_2020.*
+results/figure_4/figure_4_radars_2020.*
+results/figure_4/figure_4_support_stance_2024.*
+results/figure_4/figure_4_radars_2024.*
+```
+
+These are generated through ports of `plot_support_bump_stance_v2` and
+`plot_multiple_stance_radars` from `06_time_series.ipynb`.
 
 ### Figure 5
 
