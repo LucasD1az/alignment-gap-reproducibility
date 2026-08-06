@@ -1,0 +1,25 @@
+year,layer,topic,volume,stance_bias
+2024,Kamala Harris,Immigration,244.0,-0.18442622950819673
+2024,Kamala Harris,Wokeness,713.0,0.34081346423562414
+2024,Kamala Harris,Democratic concerns,309.0,0.2621359223300971
+2024,Kamala Harris,Economy,1094.0,0.2595978062157221
+2024,Kamala Harris,Abortion,753.0,0.6905710491367862
+2024,Kamala Harris,National security and foreign policy,225.0,0.5022222222222222
+2024,Kamala Harris,Healthcare,314.0,0.7961783439490446
+2024,Kamala Harris,Guns control,166.0,0.4036144578313253
+2024,Public Reaction,Immigration,5056871.0,-0.6555128671931565
+2024,Public Reaction,Wokeness,19949349.0,-0.4045568983814843
+2024,Public Reaction,Democratic concerns,18180447.0,-0.03842586930404765
+2024,Public Reaction,Economy,7355218.0,-0.17981628665869767
+2024,Public Reaction,Abortion,5055894.0,0.1865563455205257
+2024,Public Reaction,National security and foreign policy,5552388.0,0.3132256903832145
+2024,Public Reaction,Healthcare,748863.0,0.3623446664216321
+2024,Public Reaction,Guns control,4166950.0,-0.45869469106066435
+2024,Donald Trump,Immigration,3933.0,-0.9359267734553776
+2024,Donald Trump,Wokeness,2015.0,-0.5804369414101291
+2024,Donald Trump,Democratic concerns,1410.0,-0.5531914893617021
+2024,Donald Trump,Economy,4895.0,0.004290091930541369
+2024,Donald Trump,Abortion,1163.0,-0.1342512908777969
+2024,Donald Trump,National security and foreign policy,2166.0,0.5198522622345337
+2024,Donald Trump,Healthcare,114.0,0.06140350877192982
+2024,Donald Trump,Guns control,2141.0,-0.6551401869158878

@@ -1,5 +1,5 @@
 cff-version: 1.2.0
-message: "If you use this repository, please cite the associated paper."
+message: "If you use this repository, please cite the associated paper and software release."
 title: "The Alignment Gap: How Public Resonance Shaped Three U.S. Presidential Elections (2016–2024)"
 type: software
 authors:
@@ -9,11 +9,16 @@ authors:
     given-names: "Sebastián"
   - family-names: "del Pozo"
     given-names: "Sofia"
+  - family-names: "Hashemi"
+    given-names: "Alireza"
   - family-names: "Serafino"
     given-names: "Matteo"
   - family-names: "Balenzuela"
     given-names: "Pablo"
   - family-names: "Makse"
     given-names: "Hernán A."
-version: 0.1.8
-date-released: 2026-07-27
+version: 0.2.1
+date-released: 2026-08-05
+license: Apache-2.0
+repository-code: "https://github.com/LucasD1az/alignment-gap-reproducibility"
+url: "https://github.com/LucasD1az/alignment-gap-reproducibility"

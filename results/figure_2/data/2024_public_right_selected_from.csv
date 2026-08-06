@@ -1,0 +1,9 @@
+topic,Immigration,Wokeness,Democratic concerns,Economy,Abortion,National security and foreign policy,Healthcare,Guns control
+Immigration,significant,significant,significant,significant,significant,significant,significant,significant
+Wokeness,significant,significant,significant,significant,significant,significant,significant,significant
+Democratic concerns,significant,significant,significant,significant,significant,significant,significant,significant
+Economy,significant,significant,significant,significant,significant,significant,fallback_all_lags,significant
+Abortion,significant,significant,significant,significant,significant,significant,fallback_all_lags,significant
+National security and foreign policy,fallback_all_lags,significant,significant,fallback_all_lags,significant,significant,fallback_all_lags,significant
+Healthcare,significant,significant,significant,significant,significant,significant,fallback_all_lags,significant
+Guns control,significant,significant,significant,significant,fallback_all_lags,fallback_all_lags,significant,significant

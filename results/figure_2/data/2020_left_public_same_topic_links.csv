@@ -1,0 +1,7 @@
+topic,rho,p,lag,n,selected_from,is_significant,from_layer,to_layer
+National security and foreign policy,0.8320849285569818,2.2085814683445686e-08,-12,29,significant,True,Joe Biden,Public Reaction
+Wokeness,-0.3911465744468754,0.12054003260289889,14,17,fallback_all_lags,False,Public Reaction,Joe Biden
+Democratic concerns,0.75823993360897,7.76360560989682e-07,-10,31,significant,True,Joe Biden,Public Reaction
+Economy,0.45493222901839336,0.0036167440651551424,-1,39,significant,True,Joe Biden,Public Reaction
+Immigration,0.3295008810439591,0.09327619970469891,-14,27,fallback_all_lags,False,Joe Biden,Public Reaction
+Healthcare,0.6911764705882353,0.0021211192581910517,14,17,significant,True,Public Reaction,Joe Biden

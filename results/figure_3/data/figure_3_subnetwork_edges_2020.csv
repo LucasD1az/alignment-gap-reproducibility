@@ -1,0 +1,21 @@
+edge_type,layer_pair,from_topic,to_topic,rho,p,lag,from_layer,to_layer
+intra,left,Democratic concerns,Economy,0.6750539380431914,5.010987177203046e-07,0.0,,
+intra,left,Democratic concerns,Healthcare,0.5819575893735057,3.4197330514249465e-05,0.0,,
+intra,public,Wokeness,Economy,0.5842346507981182,2.2348435642425957e-15,0.0,,
+intra,public,Democratic concerns,Economy,0.4735032769088496,6.352792296521276e-10,0.0,,
+intra,public,Economy,Healthcare,0.4709098950585018,8.101730465872191e-10,0.0,,
+intra,right,Wokeness,Democratic concerns,0.9316336450533227,5.299757531125081e-59,0.0,,
+intra,right,Wokeness,Economy,0.7414819751633855,2.7734234569389063e-24,0.0,,
+intra,right,Democratic concerns,Economy,0.7845060778208661,9.320800976434064e-29,0.0,,
+intra,right,Economy,Healthcare,0.5518383261453427,6.9723649510604314e-12,0.0,,
+inter,left_public,Democratic concerns,Wokeness,0.5816129648263707,0.008998643586829532,13.0,public,left
+inter,left_public,Democratic concerns,Democratic concerns,0.75823993360897,7.76360560989682e-07,-10.0,left,public
+inter,left_public,Democratic concerns,Economy,0.699747387723385,7.155327023690731e-07,-1.0,left,public
+inter,left_public,Economy,Democratic concerns,0.7407975277812364,9.916712283047832e-06,-14.0,left,public
+inter,left_public,Healthcare,Economy,0.6181726343279921,2.7465536971753733e-05,-1.0,left,public
+inter,left_public,Healthcare,Healthcare,0.6911764705882353,0.0021211192581910517,14.0,public,left
+inter,public_right,Wokeness,Wokeness,0.5505545813134837,3.198685115158257e-10,13.0,public,right
+inter,public_right,Wokeness,Democratic concerns,0.5742560010257909,3.596726122334489e-11,13.0,public,right
+inter,public_right,Economy,Wokeness,0.6782608238491936,2.6639791396178493e-18,1.0,public,right
+inter,public_right,Economy,Democratic concerns,0.795315702144554,2.7168493030087616e-28,5.0,public,right
+inter,public_right,Economy,Economy,0.6747572286895476,8.518394478270507e-18,5.0,public,right

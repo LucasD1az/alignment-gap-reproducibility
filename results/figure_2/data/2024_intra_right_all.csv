@@ -1,0 +1,29 @@
+layer_key,layer_label,topic_i,topic_j,rho,p,lag
+right,Donald Trump,Immigration,Wokeness,0.6793850184145261,1.4646991957449863e-17,0
+right,Donald Trump,Immigration,Democratic concerns,0.8065045682758695,1.0559057478691247e-28,0
+right,Donald Trump,Immigration,Economy,0.8865680972022173,2.573009757114607e-41,0
+right,Donald Trump,Immigration,Abortion,0.6731359351695384,3.7043903065864706e-17,0
+right,Donald Trump,Immigration,National security and foreign policy,0.8108864162812779,3.1367206485698615e-29,0
+right,Donald Trump,Immigration,Healthcare,0.34968533937444585,9.045932633815471e-05,0
+right,Donald Trump,Immigration,Guns control,0.7409060206419992,3.909458952126036e-22,0
+right,Donald Trump,Wokeness,Democratic concerns,0.7692156035543691,1.058797003007317e-24,0
+right,Donald Trump,Wokeness,Economy,0.7388416581717374,5.837660359898044e-22,0
+right,Donald Trump,Wokeness,Abortion,0.8265293379910793,3.1366519321452953e-31,0
+right,Donald Trump,Wokeness,National security and foreign policy,0.7523177612247186,3.9710053285214305e-23,0
+right,Donald Trump,Wokeness,Healthcare,0.4894600856916735,1.4027962070264182e-08,0
+right,Donald Trump,Wokeness,Guns control,0.9029936276037152,4.136156517412717e-45,0
+right,Donald Trump,Democratic concerns,Economy,0.8264982173638847,3.1669567415276296e-31,0
+right,Donald Trump,Democratic concerns,Abortion,0.7637357107692654,3.54528354791682e-24,0
+right,Donald Trump,Democratic concerns,National security and foreign policy,0.8671736166080422,1.5829280509450835e-37,0
+right,Donald Trump,Democratic concerns,Healthcare,0.532496173577501,3.8542331726674183e-10,0
+right,Donald Trump,Democratic concerns,Guns control,0.7778960727599264,1.4558622102115435e-25,0
+right,Donald Trump,Economy,Abortion,0.6331252979963726,8.57106712277234e-15,0
+right,Donald Trump,Economy,National security and foreign policy,0.8596155217445642,3.290775284016127e-36,0
+right,Donald Trump,Economy,Healthcare,0.42980861366267237,9.63126240794166e-07,0
+right,Donald Trump,Economy,Guns control,0.7659226820996753,2.1974025335201457e-24,0
+right,Donald Trump,Abortion,National security and foreign policy,0.7386127834810506,6.101583514216193e-22,0
+right,Donald Trump,Abortion,Healthcare,0.413975109731216,2.601251964760336e-06,0
+right,Donald Trump,Abortion,Guns control,0.8226529674734202,1.0239932430390006e-30,0
+right,Donald Trump,National security and foreign policy,Healthcare,0.4175497375570778,2.087724257515493e-06,0
+right,Donald Trump,National security and foreign policy,Guns control,0.7490966236530885,7.667480735183318e-23,0
+right,Donald Trump,Healthcare,Guns control,0.37164390609046166,2.9248015128494217e-05,0

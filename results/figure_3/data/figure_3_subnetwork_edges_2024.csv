@@ -1,0 +1,20 @@
+edge_type,layer_pair,from_topic,to_topic,rho,p,lag,from_layer,to_layer
+intra,public,Wokeness,Democratic concerns,0.6483525026190415,5.17318253784524e-19,0.0,,
+intra,public,Wokeness,Economy,0.41416022240566824,1.6708033766655504e-07,0.0,,
+intra,public,Wokeness,Immigration,0.6372507283341416,3.1060241042822095e-18,0.0,,
+intra,right,Wokeness,Democratic concerns,0.7692156035543691,1.058797003007317e-24,0.0,,
+intra,right,Wokeness,Economy,0.7388416581717374,5.837660359898044e-22,0.0,,
+intra,right,Democratic concerns,Economy,0.8264982173638847,3.1669567415276296e-31,0.0,,
+intra,right,Democratic concerns,Immigration,0.8065045682758695,1.0559057478691247e-28,0.0,,
+intra,right,Economy,Immigration,0.8865680972022173,2.573009757114607e-41,0.0,,
+inter,left_public,Immigration,Wokeness,0.5365412050577407,1.4140744981727557e-06,6.0,public,left
+inter,left_public,Democratic concerns,Democratic concerns,0.7660606747387575,1.243768343647316e-16,-4.0,left,public
+inter,public_right,Wokeness,Wokeness,0.5946932257276242,8.566765324236059e-11,-7.0,right,public
+inter,public_right,Wokeness,Democratic concerns,0.81012311340004,5.438530410236251e-24,12.0,public,right
+inter,public_right,Wokeness,Economy,0.6650067763154642,8.149315241452649e-14,12.0,public,right
+inter,public_right,Wokeness,Immigration,0.6558467238546033,2.313344192397448e-13,12.0,public,right
+inter,public_right,Democratic concerns,Wokeness,0.7623859724598802,2.4820725770952743e-22,4.0,public,right
+inter,public_right,Democratic concerns,Democratic concerns,0.9048565830003972,1.7565928794324862e-41,5.0,public,right
+inter,public_right,Democratic concerns,Economy,0.7024924889403059,6.050530134367257e-18,2.0,public,right
+inter,public_right,Democratic concerns,Immigration,0.6627176628281851,2.3243401938121843e-15,4.0,public,right
+inter,public_right,Economy,Economy,0.7337896183141855,2.8503767167823045e-16,-12.0,right,public

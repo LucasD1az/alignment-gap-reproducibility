@@ -1,0 +1,36 @@
+{
+  "left": [
+    "Climate change",
+    "Education",
+    "Healthcare",
+    "Democratic concerns",
+    "Economy",
+    "Wokeness",
+    "National security and foreign policy",
+    "Guns control",
+    "Abortion"
+  ],
+  "public": [
+    "Courts",
+    "Immigration",
+    "Economy",
+    "Voter trust",
+    "Healthcare",
+    "National security and foreign policy",
+    "Wokeness",
+    "Democratic concerns",
+    "Guns control",
+    "Abortion"
+  ],
+  "right": [
+    "Healthcare",
+    "Abortion",
+    "Wokeness",
+    "Democratic concerns",
+    "Guns control",
+    "Voter trust",
+    "National security and foreign policy",
+    "Economy",
+    "Immigration"
+  ]
+}

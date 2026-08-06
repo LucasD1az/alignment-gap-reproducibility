@@ -1,0 +1,29 @@
+layer_key,layer_label,topic_i,topic_j,rho,p,lag
+left,Joe Biden,National security and foreign policy,Wokeness,0.16137363520559972,0.29533304124869875,0
+left,Joe Biden,National security and foreign policy,Democratic concerns,0.5679249993076109,5.797420912870502e-05,0
+left,Joe Biden,National security and foreign policy,Economy,0.43329964549656813,0.0033027997194635473,0
+left,Joe Biden,National security and foreign policy,Guns control,0.34604324882420473,0.02139696949789464,0
+left,Joe Biden,National security and foreign policy,Abortion,0.09573980007399431,0.5364394334750957,0
+left,Joe Biden,National security and foreign policy,Immigration,0.41179240065433625,0.0054814573365887425,0
+left,Joe Biden,National security and foreign policy,Healthcare,0.31853859313246463,0.035086659364589066,0
+left,Joe Biden,Wokeness,Democratic concerns,0.3358512130599064,0.025825079118696893,0
+left,Joe Biden,Wokeness,Economy,-0.0013757584617454166,0.9929284180716723,0
+left,Joe Biden,Wokeness,Guns control,0.10332692953979042,0.5044834610868684,0
+left,Joe Biden,Wokeness,Abortion,0.2876520865009224,0.05830839317226489,0
+left,Joe Biden,Wokeness,Immigration,-0.10821564761883858,0.4844182715222943,0
+left,Joe Biden,Wokeness,Healthcare,0.1807441558325163,0.24035237729004816,0
+left,Joe Biden,Democratic concerns,Economy,0.6750539380431914,5.010987177203046e-07,0
+left,Joe Biden,Democratic concerns,Guns control,0.26056152254622683,0.08758797112261699,0
+left,Joe Biden,Democratic concerns,Abortion,0.26813783774579125,0.07844066176875318,0
+left,Joe Biden,Democratic concerns,Immigration,0.11424230184258259,0.46026860796625213,0
+left,Joe Biden,Democratic concerns,Healthcare,0.5819575893735057,3.4197330514249465e-05,0
+left,Joe Biden,Economy,Guns control,-0.13454094316519502,0.38390701411787054,0
+left,Joe Biden,Economy,Abortion,0.3676943994142415,0.01406917841269474,0
+left,Joe Biden,Economy,Immigration,0.3552310681257999,0.017969163909652613,0
+left,Joe Biden,Economy,Healthcare,0.41941399676724955,0.004597634132784894,0
+left,Joe Biden,Guns control,Abortion,0.007008480147710938,0.9639868164006227,0
+left,Joe Biden,Guns control,Immigration,0.1345959313514667,0.3837108959557019,0
+left,Joe Biden,Guns control,Healthcare,-0.18329733372276008,0.23366262280913205,0
+left,Joe Biden,Abortion,Immigration,0.4648162412747054,0.0014787283959049261,0
+left,Joe Biden,Abortion,Healthcare,0.12327407754826165,0.4253262583938054,0
+left,Joe Biden,Immigration,Healthcare,0.12126413802464596,0.4329704126845197,0

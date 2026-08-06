@@ -1,7 +1,10 @@
-.PHONY: install check-inputs prepare validate reproduce test clean
+.PHONY: install environment check-inputs prepare validate reproduce verify test clean
 
 install:
 	python -m pip install -e ".[dev]"
+
+environment:
+	python scripts/report_environment.py --output results/environment.json
 
 check-inputs:
 	python scripts/check_temp_inputs.py
@@ -15,8 +18,10 @@ validate:
 reproduce:
 	python scripts/reproduce_all.py
 
+verify: validate reproduce
+
 test:
 	pytest
 
 clean:
-	rm -rf results/figure_* data/derived/*
+	rm -rf results/figure_* results/reproduction_runtime.json data/derived/*

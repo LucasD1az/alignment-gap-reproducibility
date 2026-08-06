@@ -1,0 +1,29 @@
+layer_key,layer_label,topic_i,topic_j,rho,p,lag
+mid,Public Reaction,National security and foreign policy,Wokeness,0.5971412488440352,3.7336372708113043e-16,0
+mid,Public Reaction,National security and foreign policy,Democratic concerns,0.4328200179593367,2.3028662924016e-08,0
+mid,Public Reaction,National security and foreign policy,Economy,0.5730971814563145,9.83479873892612e-15,0
+mid,Public Reaction,National security and foreign policy,Guns control,0.27437577901974186,0.0005988874083228444,0
+mid,Public Reaction,National security and foreign policy,Abortion,0.21680203181751168,0.007106878897020563,0
+mid,Public Reaction,National security and foreign policy,Immigration,0.29356814496133377,0.00023055353774762528,0
+mid,Public Reaction,National security and foreign policy,Healthcare,0.5034645437122217,3.285098863525535e-11,0
+mid,Public Reaction,Wokeness,Democratic concerns,0.35164783616795997,8.304920116649227e-06,0
+mid,Public Reaction,Wokeness,Economy,0.5842346507981182,2.2348435642425957e-15,0
+mid,Public Reaction,Wokeness,Guns control,0.026178413949311776,0.7480522685166587,0
+mid,Public Reaction,Wokeness,Abortion,0.08076675646335087,0.3209735620448824,0
+mid,Public Reaction,Wokeness,Immigration,0.07591840563976786,0.35097246543091287,0
+mid,Public Reaction,Wokeness,Healthcare,0.3848826611984506,9.002825674807367e-07,0
+mid,Public Reaction,Democratic concerns,Economy,0.4735032769088496,6.352792296521276e-10,0
+mid,Public Reaction,Democratic concerns,Guns control,0.289487086700709,0.0002840575635061048,0
+mid,Public Reaction,Democratic concerns,Abortion,0.12619449693753096,0.120098703101063,0
+mid,Public Reaction,Democratic concerns,Immigration,0.19545856620160024,0.015466666428801306,0
+mid,Public Reaction,Democratic concerns,Healthcare,0.3008590996207095,0.00015756273034562158,0
+mid,Public Reaction,Economy,Guns control,0.1839994370954123,0.022800705801955312,0
+mid,Public Reaction,Economy,Abortion,0.07521142428263171,0.355489352749739,0
+mid,Public Reaction,Economy,Immigration,0.44086486269148806,1.1747137344453986e-08,0
+mid,Public Reaction,Economy,Healthcare,0.4709098950585018,8.101730465872191e-10,0
+mid,Public Reaction,Guns control,Abortion,-0.15178990256389635,0.061067276044091685,0
+mid,Public Reaction,Guns control,Immigration,-0.09929904976344604,0.22200675540171014,0
+mid,Public Reaction,Guns control,Healthcare,0.3405807298996153,1.649586261499795e-05,0
+mid,Public Reaction,Abortion,Immigration,0.07079530376743998,0.3845190630176594,0
+mid,Public Reaction,Abortion,Healthcare,0.06411081178883035,0.4310980519298522,0
+mid,Public Reaction,Immigration,Healthcare,0.05203851875678501,0.5229300986869576,0

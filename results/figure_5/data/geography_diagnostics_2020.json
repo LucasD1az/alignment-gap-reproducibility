@@ -1,0 +1,28 @@
+{
+  "year": 2020,
+  "n_post_pages": 54247,
+  "n_exposure_pages": 1308,
+  "n_overlapping_pages": 1306,
+  "n_posts": 827898,
+  "n_posts_on_overlapping_pages": 32661,
+  "n_stance_labeled_posts_on_overlapping_pages": 17172,
+  "topics_on_overlapping_pages": [
+    "Abortion",
+    "Climate change",
+    "Courts",
+    "Crypto Currency",
+    "Democratic concerns",
+    "Economy",
+    "Education",
+    "Guns control",
+    "Healthcare",
+    "Immigration",
+    "National security and foreign policy",
+    "Not specified",
+    "Policing and protest",
+    "Social media",
+    "Voter trust",
+    "Wokeness"
+  ],
+  "hint": "If n_overlapping_pages is 0, rerun prepare_public_data.py with v0.1.7 or later. The original geography notebook joins posts to ads through post_owner.username; older releases selected post_owner.id whenever both columns existed."
+}

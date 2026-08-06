@@ -1,0 +1,6 @@
+topic,rho,p,lag,n,selected_from,is_significant,from_layer,to_layer
+National security and foreign policy,0.5230570790825524,3.3143979902638855e-10,1,126,significant,True,Donald Trump,Public Reaction
+Wokeness,0.5505545813134837,3.198685115158257e-10,13,112,significant,True,Donald Trump,Public Reaction
+Democratic concerns,0.46142395671997927,1.281116386122681e-07,-4,119,significant,True,Public Reaction,Donald Trump
+Economy,0.6747572286895476,8.518394478270507e-18,5,124,significant,True,Donald Trump,Public Reaction
+Healthcare,0.3184904334260226,0.0002784833735680949,1,126,significant,True,Donald Trump,Public Reaction

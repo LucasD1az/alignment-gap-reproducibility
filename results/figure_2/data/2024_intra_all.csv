@@ -1,0 +1,85 @@
+layer_key,layer_label,topic_i,topic_j,rho,p,lag
+left,Kamala Harris,Immigration,Wokeness,0.4276432562354382,3.6059663263630455e-05,0
+left,Kamala Harris,Immigration,Democratic concerns,0.5375340401859546,7.942455529863422e-08,0
+left,Kamala Harris,Immigration,Economy,0.5985764751715907,9.16416242991405e-10,0
+left,Kamala Harris,Immigration,Abortion,0.3956030444421893,0.00014913124050598575,0
+left,Kamala Harris,Immigration,National security and foreign policy,0.6610490166015568,3.2105341717311e-12,0
+left,Kamala Harris,Immigration,Healthcare,0.4413732513593209,1.875695923547721e-05,0
+left,Kamala Harris,Immigration,Guns control,0.11093998030180814,0.3063199573012656,0
+left,Kamala Harris,Wokeness,Democratic concerns,0.6389135204940363,2.7583907864146448e-11,0
+left,Kamala Harris,Wokeness,Economy,0.4703083342987365,4.298371875714362e-06,0
+left,Kamala Harris,Wokeness,Abortion,0.7365290476973996,4.2882194211810117e-16,0
+left,Kamala Harris,Wokeness,National security and foreign policy,0.12615056362746327,0.24430508999542175,0
+left,Kamala Harris,Wokeness,Healthcare,0.7676599057198573,4.188831801347717e-18,0
+left,Kamala Harris,Wokeness,Guns control,0.22597322016924748,0.0353299089036053,0
+left,Kamala Harris,Democratic concerns,Economy,0.6483670024856345,1.1248568300693162e-11,0
+left,Kamala Harris,Democratic concerns,Abortion,0.6893217382445366,1.5601490676952316e-13,0
+left,Kamala Harris,Democratic concerns,National security and foreign policy,0.5570243665831325,2.105227767540779e-08,0
+left,Kamala Harris,Democratic concerns,Healthcare,0.7795430433675478,5.892772975059537e-19,0
+left,Kamala Harris,Democratic concerns,Guns control,0.21772520032238865,0.04278481080530143,0
+left,Kamala Harris,Economy,Abortion,0.6508361176839179,8.853076197401557e-12,0
+left,Kamala Harris,Economy,National security and foreign policy,0.4935578593629592,1.1891373996187237e-06,0
+left,Kamala Harris,Economy,Healthcare,0.643922097780462,1.7216605545326555e-11,0
+left,Kamala Harris,Economy,Guns control,0.40256644591932966,0.00011087423040805255,0
+left,Kamala Harris,Abortion,National security and foreign policy,0.29871659371642106,0.004947762567775355,0
+left,Kamala Harris,Abortion,Healthcare,0.752406266171644,4.4072505991123355e-17,0
+left,Kamala Harris,Abortion,Guns control,0.46720114604907315,5.06800808873869e-06,0
+left,Kamala Harris,National security and foreign policy,Healthcare,0.3833056026339983,0.0002477883281017351,0
+left,Kamala Harris,National security and foreign policy,Guns control,0.0908401913761519,0.40271750804560924,0
+left,Kamala Harris,Healthcare,Guns control,0.4186482011574348,5.4506912845294664e-05,0
+mid,Public Reaction,Immigration,Wokeness,0.6372507283341416,3.1060241042822095e-18,0
+mid,Public Reaction,Immigration,Democratic concerns,0.37337721230338683,2.954157151624477e-06,0
+mid,Public Reaction,Immigration,Economy,0.2430840647523294,0.0029112553337156677,0
+mid,Public Reaction,Immigration,Abortion,0.6177495122845076,6.102462248696178e-17,0
+mid,Public Reaction,Immigration,National security and foreign policy,0.2982227536398198,0.00023195118617198572,0
+mid,Public Reaction,Immigration,Healthcare,0.4835250261904146,4.814855843570411e-10,0
+mid,Public Reaction,Immigration,Guns control,0.19205070020026874,0.019366585640072202,0
+mid,Public Reaction,Wokeness,Democratic concerns,0.6483525026190415,5.17318253784524e-19,0
+mid,Public Reaction,Wokeness,Economy,0.41416022240566824,1.6708033766655504e-07,0
+mid,Public Reaction,Wokeness,Abortion,0.5722207620577707,3.020981155523296e-14,0
+mid,Public Reaction,Wokeness,National security and foreign policy,0.3356445063060596,3.0419430186129135e-05,0
+mid,Public Reaction,Wokeness,Healthcare,0.43117010998123173,4.482531918809334e-08,0
+mid,Public Reaction,Wokeness,Guns control,0.28563284555614377,0.00043315277058934273,0
+mid,Public Reaction,Democratic concerns,Economy,0.3241355312304498,5.847131825276721e-05,0
+mid,Public Reaction,Democratic concerns,Abortion,0.4592484554133644,4.333882971806633e-09,0
+mid,Public Reaction,Democratic concerns,National security and foreign policy,0.3893950106797663,1.0006917702775835e-06,0
+mid,Public Reaction,Democratic concerns,Healthcare,0.32928477032024495,4.378967986620167e-05,0
+mid,Public Reaction,Democratic concerns,Guns control,0.16962874393363372,0.03929477746753683,0
+mid,Public Reaction,Economy,Abortion,0.459274368190955,4.324120493334913e-09,0
+mid,Public Reaction,Economy,National security and foreign policy,0.11749223542128626,0.154978059194585,0
+mid,Public Reaction,Economy,Healthcare,0.10710121160744365,0.195104746285522,0
+mid,Public Reaction,Economy,Guns control,0.2269663170909576,0.005536303652615287,0
+mid,Public Reaction,Abortion,National security and foreign policy,0.3883881141791017,1.0729803885313827e-06,0
+mid,Public Reaction,Abortion,Healthcare,0.38829556854484953,1.079868541209265e-06,0
+mid,Public Reaction,Abortion,Guns control,0.24988431795718474,0.002191731147523349,0
+mid,Public Reaction,National security and foreign policy,Healthcare,0.08129208512717623,0.3260002066308821,0
+mid,Public Reaction,National security and foreign policy,Guns control,0.4142490662145504,1.659670948159807e-07,0
+mid,Public Reaction,Healthcare,Guns control,-0.05224015962270997,0.5283209811115144,0
+right,Donald Trump,Immigration,Wokeness,0.6793850184145261,1.4646991957449863e-17,0
+right,Donald Trump,Immigration,Democratic concerns,0.8065045682758695,1.0559057478691247e-28,0
+right,Donald Trump,Immigration,Economy,0.8865680972022173,2.573009757114607e-41,0
+right,Donald Trump,Immigration,Abortion,0.6731359351695384,3.7043903065864706e-17,0
+right,Donald Trump,Immigration,National security and foreign policy,0.8108864162812779,3.1367206485698615e-29,0
+right,Donald Trump,Immigration,Healthcare,0.34968533937444585,9.045932633815471e-05,0
+right,Donald Trump,Immigration,Guns control,0.7409060206419992,3.909458952126036e-22,0
+right,Donald Trump,Wokeness,Democratic concerns,0.7692156035543691,1.058797003007317e-24,0
+right,Donald Trump,Wokeness,Economy,0.7388416581717374,5.837660359898044e-22,0
+right,Donald Trump,Wokeness,Abortion,0.8265293379910793,3.1366519321452953e-31,0
+right,Donald Trump,Wokeness,National security and foreign policy,0.7523177612247186,3.9710053285214305e-23,0
+right,Donald Trump,Wokeness,Healthcare,0.4894600856916735,1.4027962070264182e-08,0
+right,Donald Trump,Wokeness,Guns control,0.9029936276037152,4.136156517412717e-45,0
+right,Donald Trump,Democratic concerns,Economy,0.8264982173638847,3.1669567415276296e-31,0
+right,Donald Trump,Democratic concerns,Abortion,0.7637357107692654,3.54528354791682e-24,0
+right,Donald Trump,Democratic concerns,National security and foreign policy,0.8671736166080422,1.5829280509450835e-37,0
+right,Donald Trump,Democratic concerns,Healthcare,0.532496173577501,3.8542331726674183e-10,0
+right,Donald Trump,Democratic concerns,Guns control,0.7778960727599264,1.4558622102115435e-25,0
+right,Donald Trump,Economy,Abortion,0.6331252979963726,8.57106712277234e-15,0
+right,Donald Trump,Economy,National security and foreign policy,0.8596155217445642,3.290775284016127e-36,0
+right,Donald Trump,Economy,Healthcare,0.42980861366267237,9.63126240794166e-07,0
+right,Donald Trump,Economy,Guns control,0.7659226820996753,2.1974025335201457e-24,0
+right,Donald Trump,Abortion,National security and foreign policy,0.7386127834810506,6.101583514216193e-22,0
+right,Donald Trump,Abortion,Healthcare,0.413975109731216,2.601251964760336e-06,0
+right,Donald Trump,Abortion,Guns control,0.8226529674734202,1.0239932430390006e-30,0
+right,Donald Trump,National security and foreign policy,Healthcare,0.4175497375570778,2.087724257515493e-06,0
+right,Donald Trump,National security and foreign policy,Guns control,0.7490966236530885,7.667480735183318e-23,0
+right,Donald Trump,Healthcare,Guns control,0.37164390609046166,2.9248015128494217e-05,0

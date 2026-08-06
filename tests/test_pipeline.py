@@ -405,3 +405,12 @@ def test_figure_5_writes_decomposed_components(prepared_config: dict) -> None:
         assert f"figure_5_scatter_grid_{year}.png" in names
         assert f"figure_5_scatter_grid_{year}.svg" in names
         assert f"figure_5_{year}.html" not in names
+
+
+def test_environment_report_contains_versions() -> None:
+    from alignment_gap.environment import collect_environment
+
+    report = collect_environment()
+    assert report["python"]
+    assert report["system"]
+    assert "numpy" in report["packages"]

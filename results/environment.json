@@ -1,0 +1,25 @@
+{
+  "platform": "Windows-11-10.0.26200-SP0",
+  "system": "Windows",
+  "release": "11",
+  "machine": "AMD64",
+  "processor": "Intel64 Family 6 Model 141 Stepping 1, GenuineIntel",
+  "python": "3.14.2 (tags/v3.14.2:df79316, Dec  5 2025, 17:18:21) [MSC v.1944 64 bit (AMD64)]",
+  "python_executable": "C:\\Users\\lucas\\OneDrive\\Documents\\Académicas\\Doctorado\\Facebook\\alignment-gap-reproducibility\\.venv\\Scripts\\python.exe",
+  "cpu_count": 16,
+  "memory_gib": 31.78,
+  "chrome_executable": null,
+  "git_commit": "e86b0674a168fdc5b23451ce9ba15def099d7ccf",
+  "packages": {
+    "numpy": "2.5.1",
+    "pandas": "3.0.5",
+    "scipy": "1.18.0",
+    "matplotlib": "3.11.1",
+    "PyYAML": "6.0.3",
+    "plotly": "6.9.0",
+    "kaleido": "1.3.0",
+    "Pillow": "12.3.0",
+    "pytest": "9.1.1",
+    "ruff": "0.16.1"
+  }
+}

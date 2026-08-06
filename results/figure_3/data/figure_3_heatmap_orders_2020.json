@@ -1,0 +1,31 @@
+{
+  "left": [
+    "Wokeness",
+    "Abortion",
+    "Healthcare",
+    "Democratic concerns",
+    "Economy",
+    "National security and foreign policy",
+    "Guns control"
+  ],
+  "public": [
+    "Abortion",
+    "Guns control",
+    "Healthcare",
+    "National security and foreign policy",
+    "Wokeness",
+    "Economy",
+    "Democratic concerns",
+    "Immigration"
+  ],
+  "right": [
+    "Healthcare",
+    "Abortion",
+    "Wokeness",
+    "Democratic concerns",
+    "Guns control",
+    "Economy",
+    "National security and foreign policy",
+    "Immigration"
+  ]
+}

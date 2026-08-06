@@ -1,0 +1,29 @@
+layer_key,layer_label,topic_i,topic_j,rho,p,lag
+left,Kamala Harris,Immigration,Wokeness,0.4276432562354382,3.6059663263630455e-05,0
+left,Kamala Harris,Immigration,Democratic concerns,0.5375340401859546,7.942455529863422e-08,0
+left,Kamala Harris,Immigration,Economy,0.5985764751715907,9.16416242991405e-10,0
+left,Kamala Harris,Immigration,Abortion,0.3956030444421893,0.00014913124050598575,0
+left,Kamala Harris,Immigration,National security and foreign policy,0.6610490166015568,3.2105341717311e-12,0
+left,Kamala Harris,Immigration,Healthcare,0.4413732513593209,1.875695923547721e-05,0
+left,Kamala Harris,Immigration,Guns control,0.11093998030180814,0.3063199573012656,0
+left,Kamala Harris,Wokeness,Democratic concerns,0.6389135204940363,2.7583907864146448e-11,0
+left,Kamala Harris,Wokeness,Economy,0.4703083342987365,4.298371875714362e-06,0
+left,Kamala Harris,Wokeness,Abortion,0.7365290476973996,4.2882194211810117e-16,0
+left,Kamala Harris,Wokeness,National security and foreign policy,0.12615056362746327,0.24430508999542175,0
+left,Kamala Harris,Wokeness,Healthcare,0.7676599057198573,4.188831801347717e-18,0
+left,Kamala Harris,Wokeness,Guns control,0.22597322016924748,0.0353299089036053,0
+left,Kamala Harris,Democratic concerns,Economy,0.6483670024856345,1.1248568300693162e-11,0
+left,Kamala Harris,Democratic concerns,Abortion,0.6893217382445366,1.5601490676952316e-13,0
+left,Kamala Harris,Democratic concerns,National security and foreign policy,0.5570243665831325,2.105227767540779e-08,0
+left,Kamala Harris,Democratic concerns,Healthcare,0.7795430433675478,5.892772975059537e-19,0
+left,Kamala Harris,Democratic concerns,Guns control,0.21772520032238865,0.04278481080530143,0
+left,Kamala Harris,Economy,Abortion,0.6508361176839179,8.853076197401557e-12,0
+left,Kamala Harris,Economy,National security and foreign policy,0.4935578593629592,1.1891373996187237e-06,0
+left,Kamala Harris,Economy,Healthcare,0.643922097780462,1.7216605545326555e-11,0
+left,Kamala Harris,Economy,Guns control,0.40256644591932966,0.00011087423040805255,0
+left,Kamala Harris,Abortion,National security and foreign policy,0.29871659371642106,0.004947762567775355,0
+left,Kamala Harris,Abortion,Healthcare,0.752406266171644,4.4072505991123355e-17,0
+left,Kamala Harris,Abortion,Guns control,0.46720114604907315,5.06800808873869e-06,0
+left,Kamala Harris,National security and foreign policy,Healthcare,0.3833056026339983,0.0002477883281017351,0
+left,Kamala Harris,National security and foreign policy,Guns control,0.0908401913761519,0.40271750804560924,0
+left,Kamala Harris,Healthcare,Guns control,0.4186482011574348,5.4506912845294664e-05,0

@@ -4,17 +4,26 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "alignment-gap-reproducibility"
-version = "0.1.8"
+version = "0.2.1"
 description = "Reproducibility code for The Alignment Gap"
 readme = "README.md"
 requires-python = ">=3.10"
+license = {text = "Apache-2.0"}
 authors = [
   {name = "Lucas Díaz Celauro"},
   {name = "Sebastián Pinto"},
   {name = "Sofia del Pozo"},
+  {name = "Alireza Hashemi"},
   {name = "Matteo Serafino"},
   {name = "Pablo Balenzuela"},
   {name = "Hernán A. Makse"},
+]
+classifiers = [
+  "License :: OSI Approved :: Apache Software License",
+  "Programming Language :: Python :: 3",
+  "Programming Language :: Python :: 3.10",
+  "Programming Language :: Python :: 3.11",
+  "Programming Language :: Python :: 3.12",
 ]
 dependencies = [
   "numpy>=1.26",
@@ -32,6 +41,9 @@ dev = [
   "pytest>=8.0",
   "ruff>=0.6",
 ]
+
+[project.urls]
+Repository = "https://github.com/LucasD1az/alignment-gap-reproducibility"
 
 [tool.setuptools.packages.find]
 where = ["src"]

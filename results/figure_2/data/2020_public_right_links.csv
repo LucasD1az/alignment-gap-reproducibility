@@ -1,0 +1,91 @@
+left_layer,right_layer,left_topic,right_topic,rho,p,lag,n,selected_from,from_layer,to_layer,from_topic,to_topic
+Public Reaction,Donald Trump,Abortion,Abortion,0.6530053158301651,1.8016636374227335e-19,7,149,significant,Donald Trump,Public Reaction,Abortion,Abortion
+Public Reaction,Donald Trump,Abortion,Democratic concerns,0.695924341848848,3.4830587808570286e-23,-5,151,significant,Public Reaction,Donald Trump,Abortion,Democratic concerns
+Public Reaction,Donald Trump,Abortion,Economy,0.6109455056830194,2.0835049606364616e-16,9,147,significant,Donald Trump,Public Reaction,Economy,Abortion
+Public Reaction,Donald Trump,Abortion,Guns control,0.7109978850163072,3.6043735483105573e-25,-1,155,significant,Public Reaction,Donald Trump,Abortion,Guns control
+Public Reaction,Donald Trump,Abortion,Healthcare,0.6215971429907616,1.1888269422571224e-16,13,143,significant,Donald Trump,Public Reaction,Healthcare,Abortion
+Public Reaction,Donald Trump,Abortion,Immigration,0.4322810742600268,2.9796304286579425e-08,-5,151,significant,Public Reaction,Donald Trump,Abortion,Immigration
+Public Reaction,Donald Trump,Abortion,National security and foreign policy,0.5280201000511601,1.6606744377160114e-12,-1,155,significant,Public Reaction,Donald Trump,Abortion,National security and foreign policy
+Public Reaction,Donald Trump,Abortion,Voter trust,0.7387783620136971,5.22338572024548e-28,-1,155,significant,Public Reaction,Donald Trump,Abortion,Voter trust
+Public Reaction,Donald Trump,Abortion,Wokeness,0.6751345125753139,2.6855622295068436e-21,-6,150,significant,Public Reaction,Donald Trump,Abortion,Wokeness
+Public Reaction,Donald Trump,Courts,Abortion,0.5208214674114973,4.3861586621310435e-12,-2,154,significant,Public Reaction,Donald Trump,Courts,Abortion
+Public Reaction,Donald Trump,Courts,Democratic concerns,0.3587581366261892,4.90460390005505e-06,-2,154,significant,Public Reaction,Donald Trump,Courts,Democratic concerns
+Public Reaction,Donald Trump,Courts,Economy,0.3860435715044035,9.017622800332176e-07,-4,152,significant,Public Reaction,Donald Trump,Courts,Economy
+Public Reaction,Donald Trump,Courts,Guns control,0.4182339467994063,6.763601311372074e-08,-2,154,significant,Public Reaction,Donald Trump,Courts,Guns control
+Public Reaction,Donald Trump,Courts,Healthcare,0.5373017258775843,5.680342552226006e-13,-1,155,significant,Public Reaction,Donald Trump,Courts,Healthcare
+Public Reaction,Donald Trump,Courts,Immigration,0.5191961533984716,6.158064203374237e-12,-3,153,significant,Public Reaction,Donald Trump,Courts,Immigration
+Public Reaction,Donald Trump,Courts,National security and foreign policy,0.38879180132249946,5.752446461016543e-07,-1,155,significant,Public Reaction,Donald Trump,Courts,National security and foreign policy
+Public Reaction,Donald Trump,Courts,Voter trust,0.5213955358374236,4.839394319877754e-12,-3,153,significant,Public Reaction,Donald Trump,Courts,Voter trust
+Public Reaction,Donald Trump,Courts,Wokeness,0.4061130247524342,1.905003595894089e-07,-3,153,significant,Public Reaction,Donald Trump,Courts,Wokeness
+Public Reaction,Donald Trump,Democratic concerns,Abortion,0.4827477701791309,5.934023079626565e-10,9,147,significant,Donald Trump,Public Reaction,Abortion,Democratic concerns
+Public Reaction,Donald Trump,Democratic concerns,Democratic concerns,0.7019441392322087,2.21672209937011e-22,-14,142,significant,Public Reaction,Donald Trump,Democratic concerns,Democratic concerns
+Public Reaction,Donald Trump,Democratic concerns,Economy,0.5064442446801509,1.274557640090452e-10,-14,142,significant,Public Reaction,Donald Trump,Democratic concerns,Economy
+Public Reaction,Donald Trump,Democratic concerns,Guns control,0.6592149630704491,4.698963461397503e-19,-14,142,significant,Public Reaction,Donald Trump,Democratic concerns,Guns control
+Public Reaction,Donald Trump,Democratic concerns,Healthcare,0.32831348744038713,5.217733433934677e-05,10,146,significant,Donald Trump,Public Reaction,Healthcare,Democratic concerns
+Public Reaction,Donald Trump,Democratic concerns,Immigration,0.39179258626579316,1.0067828161833684e-06,10,146,significant,Donald Trump,Public Reaction,Immigration,Democratic concerns
+Public Reaction,Donald Trump,Democratic concerns,National security and foreign policy,0.6200855072185973,1.8903749714692173e-16,-14,142,significant,Public Reaction,Donald Trump,Democratic concerns,National security and foreign policy
+Public Reaction,Donald Trump,Democratic concerns,Voter trust,0.6462149091476955,1.270131459271797e-18,10,146,significant,Donald Trump,Public Reaction,Voter trust,Democratic concerns
+Public Reaction,Donald Trump,Democratic concerns,Wokeness,0.6239157190195267,1.090703926630134e-16,-14,142,significant,Public Reaction,Donald Trump,Democratic concerns,Wokeness
+Public Reaction,Donald Trump,Economy,Abortion,0.6778461060645881,5.625458091452723e-21,-10,146,significant,Public Reaction,Donald Trump,Economy,Abortion
+Public Reaction,Donald Trump,Economy,Democratic concerns,0.7382016617743484,2.1488554040011542e-26,-10,146,significant,Public Reaction,Donald Trump,Economy,Democratic concerns
+Public Reaction,Donald Trump,Economy,Economy,0.7388972641984348,1.225144352174359e-26,-9,147,significant,Public Reaction,Donald Trump,Economy,Economy
+Public Reaction,Donald Trump,Economy,Guns control,0.7408367210971087,1.1527588399227065e-26,-10,146,significant,Public Reaction,Donald Trump,Economy,Guns control
+Public Reaction,Donald Trump,Economy,Healthcare,0.6022854875131007,1.1139295796311085e-15,11,145,significant,Donald Trump,Public Reaction,Healthcare,Economy
+Public Reaction,Donald Trump,Economy,Immigration,0.6333135769095408,2.0403943824398217e-18,-4,152,significant,Public Reaction,Donald Trump,Economy,Immigration
+Public Reaction,Donald Trump,Economy,National security and foreign policy,0.6599074054433347,2.3234659634645937e-20,-4,152,significant,Public Reaction,Donald Trump,Economy,National security and foreign policy
+Public Reaction,Donald Trump,Economy,Voter trust,0.7880590061023225,7.680662011678827e-34,-2,154,significant,Public Reaction,Donald Trump,Economy,Voter trust
+Public Reaction,Donald Trump,Economy,Wokeness,0.6801162225894072,3.714511248924471e-21,-10,146,significant,Public Reaction,Donald Trump,Economy,Wokeness
+Public Reaction,Donald Trump,Guns control,Abortion,0.5258274282262407,2.962175477678486e-12,3,153,significant,Donald Trump,Public Reaction,Abortion,Guns control
+Public Reaction,Donald Trump,Guns control,Democratic concerns,0.5317859077889936,2.5166797303385538e-12,6,150,significant,Donald Trump,Public Reaction,Democratic concerns,Guns control
+Public Reaction,Donald Trump,Guns control,Economy,0.4525660659743501,6.847972288836328e-09,7,149,significant,Donald Trump,Public Reaction,Economy,Guns control
+Public Reaction,Donald Trump,Guns control,Guns control,0.5278679737891243,3.2889721092198774e-12,5,151,significant,Donald Trump,Public Reaction,Guns control,Guns control
+Public Reaction,Donald Trump,Guns control,Healthcare,0.3290930975486268,5.307045011774957e-05,11,145,significant,Donald Trump,Public Reaction,Healthcare,Guns control
+Public Reaction,Donald Trump,Guns control,Immigration,0.40820180312034926,1.4792310078284126e-07,2,154,significant,Donald Trump,Public Reaction,Immigration,Guns control
+Public Reaction,Donald Trump,Guns control,National security and foreign policy,0.5034240698442425,5.995727785854711e-11,7,149,significant,Donald Trump,Public Reaction,National security and foreign policy,Guns control
+Public Reaction,Donald Trump,Guns control,Voter trust,0.5134946111034722,1.823337326715003e-11,6,150,significant,Donald Trump,Public Reaction,Voter trust,Guns control
+Public Reaction,Donald Trump,Guns control,Wokeness,0.4622659537953683,1.795941596413446e-09,3,153,significant,Donald Trump,Public Reaction,Wokeness,Guns control
+Public Reaction,Donald Trump,Healthcare,Abortion,0.6246093574345578,2.1923134521353275e-17,-8,148,significant,Public Reaction,Donald Trump,Healthcare,Abortion
+Public Reaction,Donald Trump,Healthcare,Democratic concerns,0.49865211939574666,8.357708406609603e-11,-6,150,significant,Public Reaction,Donald Trump,Healthcare,Democratic concerns
+Public Reaction,Donald Trump,Healthcare,Economy,0.6153922904706461,6.77622010758561e-17,-7,149,significant,Public Reaction,Donald Trump,Healthcare,Economy
+Public Reaction,Donald Trump,Healthcare,Guns control,0.5425132828153985,7.446036467961518e-13,-6,150,significant,Public Reaction,Donald Trump,Healthcare,Guns control
+Public Reaction,Donald Trump,Healthcare,Healthcare,0.5442147589934032,8.743661980532587e-13,-8,148,significant,Public Reaction,Donald Trump,Healthcare,Healthcare
+Public Reaction,Donald Trump,Healthcare,Immigration,0.5422299126876446,7.693752655034909e-13,-6,150,significant,Public Reaction,Donald Trump,Healthcare,Immigration
+Public Reaction,Donald Trump,Healthcare,National security and foreign policy,0.4398146604414838,1.789380513914261e-08,-6,150,significant,Public Reaction,Donald Trump,Healthcare,National security and foreign policy
+Public Reaction,Donald Trump,Healthcare,Voter trust,0.6740579555552628,8.210490319241326e-21,-9,147,significant,Public Reaction,Donald Trump,Healthcare,Voter trust
+Public Reaction,Donald Trump,Healthcare,Wokeness,0.556307452651504,1.457669347648707e-13,-6,150,significant,Public Reaction,Donald Trump,Healthcare,Wokeness
+Public Reaction,Donald Trump,Immigration,Abortion,-0.20579322044559936,0.012397058938306883,9,147,fallback_all_lags,Donald Trump,Public Reaction,Abortion,Immigration
+Public Reaction,Donald Trump,Immigration,Democratic concerns,0.3854354192764173,9.411928057954967e-07,-4,152,significant,Public Reaction,Donald Trump,Immigration,Democratic concerns
+Public Reaction,Donald Trump,Immigration,Economy,0.35368133311279265,7.828672561660968e-06,-4,152,significant,Public Reaction,Donald Trump,Immigration,Economy
+Public Reaction,Donald Trump,Immigration,Guns control,0.3430979735743076,1.4144020765216366e-05,-3,153,significant,Public Reaction,Donald Trump,Immigration,Guns control
+Public Reaction,Donald Trump,Immigration,Healthcare,-0.24553751846384914,0.003226610621091751,-14,142,significant,Public Reaction,Donald Trump,Immigration,Healthcare
+Public Reaction,Donald Trump,Immigration,Immigration,0.48582898459765295,2.2315762905932816e-10,-4,152,significant,Public Reaction,Donald Trump,Immigration,Immigration
+Public Reaction,Donald Trump,Immigration,National security and foreign policy,0.4974151796017339,6.115222277627406e-11,-3,153,significant,Public Reaction,Donald Trump,Immigration,National security and foreign policy
+Public Reaction,Donald Trump,Immigration,Voter trust,-0.2199493659182554,0.008535402172985321,-14,142,significant,Public Reaction,Donald Trump,Immigration,Voter trust
+Public Reaction,Donald Trump,Immigration,Wokeness,0.3398517400979114,1.8390156986361795e-05,-4,152,significant,Public Reaction,Donald Trump,Immigration,Wokeness
+Public Reaction,Donald Trump,National security and foreign policy,Abortion,0.4210008869603543,1.214672235302923e-07,-10,146,significant,Public Reaction,Donald Trump,National security and foreign policy,Abortion
+Public Reaction,Donald Trump,National security and foreign policy,Democratic concerns,0.5015090279979604,7.271025481730108e-11,-7,149,significant,Public Reaction,Donald Trump,National security and foreign policy,Democratic concerns
+Public Reaction,Donald Trump,National security and foreign policy,Economy,0.41037883059373503,2.01505083373105e-07,-7,149,significant,Public Reaction,Donald Trump,National security and foreign policy,Economy
+Public Reaction,Donald Trump,National security and foreign policy,Guns control,0.49663907359336673,1.1810224927728152e-10,-7,149,significant,Public Reaction,Donald Trump,National security and foreign policy,Guns control
+Public Reaction,Donald Trump,National security and foreign policy,Healthcare,0.37388335002819273,3.615997313049747e-06,11,145,significant,Donald Trump,Public Reaction,Healthcare,National security and foreign policy
+Public Reaction,Donald Trump,National security and foreign policy,Immigration,0.33245343891470397,3.4371025451856456e-05,-7,149,significant,Public Reaction,Donald Trump,National security and foreign policy,Immigration
+Public Reaction,Donald Trump,National security and foreign policy,National security and foreign policy,0.532306146221287,1.690821779133976e-12,-4,152,significant,Public Reaction,Donald Trump,National security and foreign policy,National security and foreign policy
+Public Reaction,Donald Trump,National security and foreign policy,Voter trust,0.6094171321063163,1.6176651855141886e-16,-7,149,significant,Public Reaction,Donald Trump,National security and foreign policy,Voter trust
+Public Reaction,Donald Trump,National security and foreign policy,Wokeness,0.4978666031902925,9.040725751750753e-11,-6,150,significant,Public Reaction,Donald Trump,National security and foreign policy,Wokeness
+Public Reaction,Donald Trump,Voter trust,Abortion,0.7329649652599686,2.2583885073537325e-26,7,149,significant,Donald Trump,Public Reaction,Abortion,Voter trust
+Public Reaction,Donald Trump,Voter trust,Democratic concerns,0.7591067545140643,4.52676105508413e-28,-13,143,significant,Public Reaction,Donald Trump,Voter trust,Democratic concerns
+Public Reaction,Donald Trump,Voter trust,Economy,0.6491978633467221,6.47692563508137e-20,-1,155,significant,Public Reaction,Donald Trump,Voter trust,Economy
+Public Reaction,Donald Trump,Voter trust,Guns control,0.6762257912995271,1.1826558721744103e-21,4,152,significant,Donald Trump,Public Reaction,Guns control,Voter trust
+Public Reaction,Donald Trump,Voter trust,Healthcare,0.7458316225638608,5.222411981920294e-27,11,145,significant,Donald Trump,Public Reaction,Healthcare,Voter trust
+Public Reaction,Donald Trump,Voter trust,Immigration,0.48932353293771885,1.5850454874260714e-10,4,152,significant,Donald Trump,Public Reaction,Immigration,Voter trust
+Public Reaction,Donald Trump,Voter trust,National security and foreign policy,0.6025118044075871,1.0799685589888721e-15,-11,145,significant,Public Reaction,Donald Trump,Voter trust,National security and foreign policy
+Public Reaction,Donald Trump,Voter trust,Voter trust,0.7290878270887202,2.5848449898090363e-26,5,151,significant,Donald Trump,Public Reaction,Voter trust,Voter trust
+Public Reaction,Donald Trump,Voter trust,Wokeness,0.667189611137828,8.480146777208404e-21,-5,151,significant,Public Reaction,Donald Trump,Voter trust,Wokeness
+Public Reaction,Donald Trump,Wokeness,Abortion,0.5213485108363565,7.904363872266284e-12,6,150,significant,Donald Trump,Public Reaction,Abortion,Wokeness
+Public Reaction,Donald Trump,Wokeness,Democratic concerns,0.5624775651214146,1.009759694016173e-13,-8,148,significant,Public Reaction,Donald Trump,Wokeness,Democratic concerns
+Public Reaction,Donald Trump,Wokeness,Economy,0.5939516563899302,2.2020521267788675e-15,9,147,significant,Donald Trump,Public Reaction,Economy,Wokeness
+Public Reaction,Donald Trump,Wokeness,Guns control,0.5150957164241955,2.8916917571634565e-11,10,146,significant,Donald Trump,Public Reaction,Guns control,Wokeness
+Public Reaction,Donald Trump,Wokeness,Healthcare,0.5772600060632267,3.6321130933127543e-14,12,144,significant,Donald Trump,Public Reaction,Healthcare,Wokeness
+Public Reaction,Donald Trump,Wokeness,Immigration,0.28386241492985514,0.0004312165739228891,6,150,significant,Donald Trump,Public Reaction,Immigration,Wokeness
+Public Reaction,Donald Trump,Wokeness,National security and foreign policy,0.4538559215971602,7.770165422238856e-09,9,147,significant,Donald Trump,Public Reaction,National security and foreign policy,Wokeness
+Public Reaction,Donald Trump,Wokeness,Voter trust,0.5367872371283486,2.411404694027646e-12,9,147,significant,Donald Trump,Public Reaction,Voter trust,Wokeness
+Public Reaction,Donald Trump,Wokeness,Wokeness,0.49804875107985086,1.1883618190347413e-10,-8,148,significant,Public Reaction,Donald Trump,Wokeness,Wokeness

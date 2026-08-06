@@ -1,0 +1,73 @@
+left_layer,right_layer,left_topic,right_topic,rho,p,lag,n,selected_from,from_layer,to_layer,from_topic,to_topic
+Kamala Harris,Public Reaction,Abortion,Abortion,0.5354173477425039,5.962033990163572e-13,2,156,significant,Public Reaction,Kamala Harris,Abortion,Abortion
+Kamala Harris,Public Reaction,Abortion,Courts,-0.5975205735092686,4.426651383441962e-16,-6,152,significant,Kamala Harris,Public Reaction,Abortion,Courts
+Kamala Harris,Public Reaction,Abortion,Democratic concerns,0.5916212845703351,5.234197350746659e-16,3,155,significant,Public Reaction,Kamala Harris,Democratic concerns,Abortion
+Kamala Harris,Public Reaction,Abortion,Economy,0.6354797570768826,9.012038695500124e-18,-13,145,significant,Kamala Harris,Public Reaction,Abortion,Economy
+Kamala Harris,Public Reaction,Abortion,Guns control,0.32101899046197585,6.559893816513946e-05,9,149,significant,Public Reaction,Kamala Harris,Guns control,Abortion
+Kamala Harris,Public Reaction,Abortion,Immigration,0.652670195827803,8.209671473040212e-20,6,152,significant,Public Reaction,Kamala Harris,Immigration,Abortion
+Kamala Harris,Public Reaction,Abortion,National security and foreign policy,0.3738431490208635,2.6487597522469864e-06,9,149,significant,Public Reaction,Kamala Harris,National security and foreign policy,Abortion
+Kamala Harris,Public Reaction,Abortion,Voter trust,0.616359024335207,4.6119533533495604e-17,8,150,significant,Public Reaction,Kamala Harris,Voter trust,Abortion
+Kamala Harris,Public Reaction,Abortion,Wokeness,0.5523723950293769,6.397238025863528e-14,1,157,significant,Public Reaction,Kamala Harris,Wokeness,Abortion
+Kamala Harris,Public Reaction,Democratic concerns,Abortion,0.6047011643131104,5.0076657800226904e-17,1,157,significant,Public Reaction,Kamala Harris,Abortion,Democratic concerns
+Kamala Harris,Public Reaction,Democratic concerns,Courts,-0.5298840713141157,5.1482748753720195e-12,-11,147,significant,Kamala Harris,Public Reaction,Democratic concerns,Courts
+Kamala Harris,Public Reaction,Democratic concerns,Democratic concerns,0.5999333980135738,1.2722900625519796e-16,2,156,significant,Public Reaction,Kamala Harris,Democratic concerns,Democratic concerns
+Kamala Harris,Public Reaction,Democratic concerns,Economy,0.6919767616289934,5.548014828951409e-22,-13,145,significant,Kamala Harris,Public Reaction,Democratic concerns,Economy
+Kamala Harris,Public Reaction,Democratic concerns,Guns control,0.3464767604415226,1.7167037254271543e-05,11,147,significant,Public Reaction,Kamala Harris,Guns control,Democratic concerns
+Kamala Harris,Public Reaction,Democratic concerns,Immigration,0.6729555120507316,4.7520010886748365e-22,1,157,significant,Public Reaction,Kamala Harris,Immigration,Democratic concerns
+Kamala Harris,Public Reaction,Democratic concerns,National security and foreign policy,0.4905664706061583,4.329552135333417e-10,14,144,significant,Public Reaction,Kamala Harris,National security and foreign policy,Democratic concerns
+Kamala Harris,Public Reaction,Democratic concerns,Voter trust,0.6277108228061483,8.238295735163192e-18,8,150,significant,Public Reaction,Kamala Harris,Voter trust,Democratic concerns
+Kamala Harris,Public Reaction,Democratic concerns,Wokeness,0.70104126542901,1.576831458800068e-24,1,157,significant,Public Reaction,Kamala Harris,Wokeness,Democratic concerns
+Kamala Harris,Public Reaction,Economy,Abortion,0.5988593148197434,1.4877867655500815e-16,2,156,significant,Public Reaction,Kamala Harris,Abortion,Economy
+Kamala Harris,Public Reaction,Economy,Courts,-0.6296319499869333,2.836630928139693e-17,-14,144,significant,Kamala Harris,Public Reaction,Economy,Courts
+Kamala Harris,Public Reaction,Economy,Democratic concerns,0.6186722419951197,3.2651760229936057e-17,8,150,significant,Public Reaction,Kamala Harris,Democratic concerns,Economy
+Kamala Harris,Public Reaction,Economy,Economy,0.6903907652080865,2.056139104193532e-23,2,156,significant,Public Reaction,Kamala Harris,Economy,Economy
+Kamala Harris,Public Reaction,Economy,Guns control,0.4877435252849039,3.228616070313271e-10,10,148,significant,Public Reaction,Kamala Harris,Guns control,Economy
+Kamala Harris,Public Reaction,Economy,Immigration,0.6914661625660921,1.6493263708481885e-23,2,156,significant,Public Reaction,Kamala Harris,Immigration,Economy
+Kamala Harris,Public Reaction,Economy,National security and foreign policy,0.4279331790898796,5.21644155447414e-08,9,149,significant,Public Reaction,Kamala Harris,National security and foreign policy,Economy
+Kamala Harris,Public Reaction,Economy,Voter trust,0.6852990334810268,3.9403777783309114e-22,8,150,significant,Public Reaction,Kamala Harris,Voter trust,Economy
+Kamala Harris,Public Reaction,Economy,Wokeness,0.5423587342207704,2.614918104228848e-13,2,156,significant,Public Reaction,Kamala Harris,Wokeness,Economy
+Kamala Harris,Public Reaction,Guns control,Abortion,0.7274955314435535,5.598544914685548e-27,2,156,significant,Public Reaction,Kamala Harris,Abortion,Guns control
+Kamala Harris,Public Reaction,Guns control,Courts,-0.5855981162100139,1.266148473828252e-14,-14,144,significant,Kamala Harris,Public Reaction,Guns control,Courts
+Kamala Harris,Public Reaction,Guns control,Democratic concerns,0.6854126252713408,3.8550644036356607e-22,8,150,significant,Public Reaction,Kamala Harris,Democratic concerns,Guns control
+Kamala Harris,Public Reaction,Guns control,Economy,0.6854413480352579,7.279703896939984e-22,-10,148,significant,Kamala Harris,Public Reaction,Guns control,Economy
+Kamala Harris,Public Reaction,Guns control,Guns control,0.5365800762976642,2.075331578529352e-12,10,148,significant,Public Reaction,Kamala Harris,Guns control,Guns control
+Kamala Harris,Public Reaction,Guns control,Immigration,0.7159952617519856,1.1782509077059703e-25,3,155,significant,Public Reaction,Kamala Harris,Immigration,Guns control
+Kamala Harris,Public Reaction,Guns control,National security and foreign policy,0.6061552495489332,2.046311508196462e-16,8,150,significant,Public Reaction,Kamala Harris,National security and foreign policy,Guns control
+Kamala Harris,Public Reaction,Guns control,Voter trust,0.6306094396236871,5.246611586405418e-18,8,150,significant,Public Reaction,Kamala Harris,Voter trust,Guns control
+Kamala Harris,Public Reaction,Guns control,Wokeness,0.594227436966562,2.9020123697221713e-16,2,156,significant,Public Reaction,Kamala Harris,Wokeness,Guns control
+Kamala Harris,Public Reaction,Healthcare,Abortion,0.5163466733406786,3.48957341431102e-11,-14,144,significant,Kamala Harris,Public Reaction,Healthcare,Abortion
+Kamala Harris,Public Reaction,Healthcare,Courts,-0.5564174007565496,5.605798989071134e-14,-3,155,significant,Kamala Harris,Public Reaction,Healthcare,Courts
+Kamala Harris,Public Reaction,Healthcare,Democratic concerns,0.5609389137708835,3.17135483751773e-14,3,155,significant,Public Reaction,Kamala Harris,Democratic concerns,Healthcare
+Kamala Harris,Public Reaction,Healthcare,Economy,0.5768781384711741,3.808994116702015e-14,-14,144,significant,Kamala Harris,Public Reaction,Healthcare,Economy
+Kamala Harris,Public Reaction,Healthcare,Guns control,0.38514638015718683,1.2336414171698334e-06,9,149,significant,Public Reaction,Kamala Harris,Guns control,Healthcare
+Kamala Harris,Public Reaction,Healthcare,Immigration,0.6221987806774298,1.16784629359705e-17,6,152,significant,Public Reaction,Kamala Harris,Immigration,Healthcare
+Kamala Harris,Public Reaction,Healthcare,National security and foreign policy,0.4679137851950585,1.3790521393273762e-09,7,151,significant,Public Reaction,Kamala Harris,National security and foreign policy,Healthcare
+Kamala Harris,Public Reaction,Healthcare,Voter trust,0.5664181349110188,1.9132706332960055e-14,4,154,significant,Public Reaction,Kamala Harris,Voter trust,Healthcare
+Kamala Harris,Public Reaction,Healthcare,Wokeness,0.555057190180777,4.5671682835551957e-14,1,157,significant,Public Reaction,Kamala Harris,Wokeness,Healthcare
+Kamala Harris,Public Reaction,Immigration,Abortion,0.6329123372896781,9.999819206654365e-19,3,155,significant,Public Reaction,Kamala Harris,Abortion,Immigration
+Kamala Harris,Public Reaction,Immigration,Courts,-0.6252637069425481,3.2824203586508865e-17,-12,146,significant,Kamala Harris,Public Reaction,Immigration,Courts
+Kamala Harris,Public Reaction,Immigration,Democratic concerns,0.5299325003269406,4.328655032964728e-12,10,148,significant,Public Reaction,Kamala Harris,Democratic concerns,Immigration
+Kamala Harris,Public Reaction,Immigration,Economy,0.69809001980178,1.1420009848862054e-23,5,153,significant,Public Reaction,Kamala Harris,Economy,Immigration
+Kamala Harris,Public Reaction,Immigration,Guns control,0.4673825151081058,2.724564827610669e-09,12,146,significant,Public Reaction,Kamala Harris,Guns control,Immigration
+Kamala Harris,Public Reaction,Immigration,Immigration,0.7298551038648613,1.4718505549892386e-25,12,146,significant,Public Reaction,Kamala Harris,Immigration,Immigration
+Kamala Harris,Public Reaction,Immigration,National security and foreign policy,0.5388690821685015,3.230746876069111e-12,14,144,significant,Public Reaction,Kamala Harris,National security and foreign policy,Immigration
+Kamala Harris,Public Reaction,Immigration,Voter trust,0.6944763384526993,2.4603451943963964e-22,12,146,significant,Public Reaction,Kamala Harris,Voter trust,Immigration
+Kamala Harris,Public Reaction,Immigration,Wokeness,0.5992461395294545,1.7622993280450432e-16,3,155,significant,Public Reaction,Kamala Harris,Wokeness,Immigration
+Kamala Harris,Public Reaction,National security and foreign policy,Abortion,0.5653779827108111,1.4780198748106136e-14,2,156,significant,Public Reaction,Kamala Harris,Abortion,National security and foreign policy
+Kamala Harris,Public Reaction,National security and foreign policy,Courts,-0.5875145346162869,6.435926057294938e-15,-12,146,significant,Kamala Harris,Public Reaction,National security and foreign policy,Courts
+Kamala Harris,Public Reaction,National security and foreign policy,Democratic concerns,0.4792806607496289,7.158955854476922e-10,10,148,significant,Public Reaction,Kamala Harris,Democratic concerns,National security and foreign policy
+Kamala Harris,Public Reaction,National security and foreign policy,Economy,0.7153378477482494,2.817394867952285e-25,5,153,significant,Public Reaction,Kamala Harris,Economy,National security and foreign policy
+Kamala Harris,Public Reaction,National security and foreign policy,Guns control,0.5269170583931341,7.095140474334936e-12,11,147,significant,Public Reaction,Kamala Harris,Guns control,National security and foreign policy
+Kamala Harris,Public Reaction,National security and foreign policy,Immigration,0.7395413842731534,1.9422023003938477e-28,-1,157,significant,Kamala Harris,Public Reaction,National security and foreign policy,Immigration
+Kamala Harris,Public Reaction,National security and foreign policy,National security and foreign policy,0.48521255391841295,7.118241836298516e-10,14,144,significant,Public Reaction,Kamala Harris,National security and foreign policy,National security and foreign policy
+Kamala Harris,Public Reaction,National security and foreign policy,Voter trust,0.6579710636672862,1.8283087120809236e-19,12,146,significant,Public Reaction,Kamala Harris,Voter trust,National security and foreign policy
+Kamala Harris,Public Reaction,National security and foreign policy,Wokeness,0.563692130108768,1.5134335022514645e-14,-1,157,significant,Kamala Harris,Public Reaction,National security and foreign policy,Wokeness
+Kamala Harris,Public Reaction,Wokeness,Abortion,0.5118532300675065,9.971632883206656e-12,3,155,significant,Public Reaction,Kamala Harris,Abortion,Wokeness
+Kamala Harris,Public Reaction,Wokeness,Courts,-0.6161964734231877,2.911621320510286e-17,-6,152,significant,Kamala Harris,Public Reaction,Wokeness,Courts
+Kamala Harris,Public Reaction,Wokeness,Democratic concerns,0.5768293020054935,4.9044752285220025e-15,4,154,significant,Public Reaction,Kamala Harris,Democratic concerns,Wokeness
+Kamala Harris,Public Reaction,Wokeness,Economy,0.5784662036889302,3.1243049864613856e-14,-14,144,significant,Kamala Harris,Public Reaction,Wokeness,Economy
+Kamala Harris,Public Reaction,Wokeness,Guns control,0.2764231566898302,0.0007011596168139909,11,147,significant,Public Reaction,Kamala Harris,Guns control,Wokeness
+Kamala Harris,Public Reaction,Wokeness,Immigration,0.6671087029024055,6.389358929871446e-21,6,152,significant,Public Reaction,Kamala Harris,Immigration,Wokeness
+Kamala Harris,Public Reaction,Wokeness,National security and foreign policy,0.42418918774256886,5.707493422379966e-08,7,151,significant,Public Reaction,Kamala Harris,National security and foreign policy,Wokeness
+Kamala Harris,Public Reaction,Wokeness,Voter trust,0.5775267748380319,6.7492890858347e-15,6,152,significant,Public Reaction,Kamala Harris,Voter trust,Wokeness
+Kamala Harris,Public Reaction,Wokeness,Wokeness,0.524566625580979,2.0835365748190695e-12,2,156,significant,Public Reaction,Kamala Harris,Wokeness,Wokeness

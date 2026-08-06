@@ -1,0 +1,5 @@
+topic,rho,p,lag,n,selected_from,is_significant,from_layer,to_layer
+Immigration,0.4643341597660207,7.792047884316269e-07,-5,103,significant,True,Public Reaction,Donald Trump
+Wokeness,0.5946932257276242,8.566765324236059e-11,-7,99,significant,True,Public Reaction,Donald Trump
+Democratic concerns,0.9048565830003972,1.7565928794324862e-41,5,109,significant,True,Donald Trump,Public Reaction
+Economy,0.7337896183141855,2.8503767167823045e-16,-12,89,significant,True,Public Reaction,Donald Trump
